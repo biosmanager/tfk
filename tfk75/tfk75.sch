@@ -1,4 +1,588 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "tfk75"
+Date "2021-01-16"
+Rev "0"
+Comp "biosmanager"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6005DAE8
+P 800 1150
+F 0 "#PWR?" H 800 1000 50  0001 C CNN
+F 1 "+3.3V" H 815 1323 50  0000 C CNN
+F 2 "" H 800 1150 50  0001 C CNN
+F 3 "" H 800 1150 50  0001 C CNN
+	1    800  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 6005EF74
+P 800 1450
+F 0 "C1" H 892 1496 50  0000 L CNN
+F 1 "100 nF" H 892 1405 50  0000 L CNN
+F 2 "" H 800 1450 50  0001 C CNN
+F 3 "~" H 800 1450 50  0001 C CNN
+	1    800  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 600622B6
+P 1800 1450
+F 0 "C3" H 1892 1496 50  0000 L CNN
+F 1 "100 nF" H 1892 1405 50  0000 L CNN
+F 2 "" H 1800 1450 50  0001 C CNN
+F 3 "~" H 1800 1450 50  0001 C CNN
+	1    1800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 6006295D
+P 2300 1450
+F 0 "C4" H 2392 1496 50  0000 L CNN
+F 1 "100 nF" H 2392 1405 50  0000 L CNN
+F 2 "" H 2300 1450 50  0001 C CNN
+F 3 "~" H 2300 1450 50  0001 C CNN
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 60062EA5
+P 2800 1450
+F 0 "C5" H 2892 1496 50  0000 L CNN
+F 1 "4.7 uF" H 2892 1405 50  0000 L CNN
+F 2 "" H 2800 1450 50  0001 C CNN
+F 3 "~" H 2800 1450 50  0001 C CNN
+	1    2800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600651A9
+P 800 1900
+F 0 "#PWR?" H 800 1650 50  0001 C CNN
+F 1 "GND" H 805 1727 50  0000 C CNN
+F 2 "" H 800 1900 50  0001 C CNN
+F 3 "" H 800 1900 50  0001 C CNN
+	1    800  1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60061815
+P 1300 1450
+F 0 "C2" H 1392 1496 50  0000 L CNN
+F 1 "100 nF" H 1392 1405 50  0000 L CNN
+F 2 "" H 1300 1450 50  0001 C CNN
+F 3 "~" H 1300 1450 50  0001 C CNN
+	1    1300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 600690A8
+P 3300 1150
+F 0 "#PWR?" H 3300 1000 50  0001 C CNN
+F 1 "+3.3V" H 3315 1323 50  0000 C CNN
+F 2 "" H 3300 1150 50  0001 C CNN
+F 3 "" H 3300 1150 50  0001 C CNN
+	1    3300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 6006A8CD
+P 3300 1450
+F 0 "C6" H 3392 1496 50  0000 L CNN
+F 1 "10 nF" H 3392 1405 50  0000 L CNN
+F 2 "" H 3300 1450 50  0001 C CNN
+F 3 "~" H 3300 1450 50  0001 C CNN
+	1    3300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 6006AD04
+P 3800 1450
+F 0 "C7" H 3892 1496 50  0000 L CNN
+F 1 "1 uF" H 3892 1405 50  0000 L CNN
+F 2 "" H 3800 1450 50  0001 C CNN
+F 3 "~" H 3800 1450 50  0001 C CNN
+	1    3800 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1150 3300 1250
+Wire Wire Line
+	3300 1250 3800 1250
+Wire Wire Line
+	3800 1250 3800 1350
+Connection ~ 3300 1250
+Wire Wire Line
+	3300 1250 3300 1350
+Wire Wire Line
+	3800 1550 3800 1650
+Wire Wire Line
+	3300 1650 3300 1550
+Wire Wire Line
+	3300 1650 3300 1900
+Connection ~ 3300 1650
+$Comp
+L power:GND #PWR?
+U 1 1 6006CBDE
+P 3300 1900
+F 0 "#PWR?" H 3300 1650 50  0001 C CNN
+F 1 "GND" H 3305 1727 50  0000 C CNN
+F 2 "" H 3300 1900 50  0001 C CNN
+F 3 "" H 3300 1900 50  0001 C CNN
+	1    3300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6002CFB0
+P 1800 1150
+F 0 "#PWR?" H 1800 1000 50  0001 C CNN
+F 1 "+3.3V" H 1815 1323 50  0000 C CNN
+F 2 "" H 1800 1150 50  0001 C CNN
+F 3 "" H 1800 1150 50  0001 C CNN
+	1    1800 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6002D7E6
+P 2300 1150
+F 0 "#PWR?" H 2300 1000 50  0001 C CNN
+F 1 "+3.3V" H 2315 1323 50  0000 C CNN
+F 2 "" H 2300 1150 50  0001 C CNN
+F 3 "" H 2300 1150 50  0001 C CNN
+	1    2300 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1150 1300 1350
+Wire Wire Line
+	2300 1550 2300 1650
+Wire Wire Line
+	2800 1650 2800 1550
+Wire Wire Line
+	2800 1350 2800 1250
+Wire Wire Line
+	2300 1350 2300 1250
+Wire Wire Line
+	2300 1250 2800 1250
+Wire Wire Line
+	2300 1250 2300 1150
+Connection ~ 2300 1250
+Wire Wire Line
+	1800 1150 1800 1350
+Wire Wire Line
+	800  1350 800  1150
+$Comp
+L power:GND #PWR?
+U 1 1 600443B0
+P 2300 1900
+F 0 "#PWR?" H 2300 1650 50  0001 C CNN
+F 1 "GND" H 2305 1727 50  0000 C CNN
+F 2 "" H 2300 1900 50  0001 C CNN
+F 3 "" H 2300 1900 50  0001 C CNN
+	1    2300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60043EB8
+P 1800 1900
+F 0 "#PWR?" H 1800 1650 50  0001 C CNN
+F 1 "GND" H 1805 1727 50  0000 C CNN
+F 2 "" H 1800 1900 50  0001 C CNN
+F 3 "" H 1800 1900 50  0001 C CNN
+	1    1800 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1650 2300 1900
+Connection ~ 2300 1650
+Wire Wire Line
+	3800 1650 3550 1650
+Wire Wire Line
+	2300 1650 2550 1650
+Wire Wire Line
+	1800 1550 1800 1800
+Wire Wire Line
+	1300 1550 1300 1800
+Wire Wire Line
+	1300 1800 1550 1800
+Connection ~ 1300 1800
+Wire Wire Line
+	1300 1800 1300 1900
+Wire Wire Line
+	1800 1800 2050 1800
+Connection ~ 1800 1800
+Wire Wire Line
+	1800 1800 1800 1900
+Wire Wire Line
+	2550 1650 2550 1800
+Connection ~ 2550 1650
+Wire Wire Line
+	2550 1650 2800 1650
+Wire Wire Line
+	3550 1650 3550 1800
+Connection ~ 3550 1650
+Wire Wire Line
+	3550 1650 3300 1650
+Text Label 1550 1800 2    39   ~ 0
+VDD2
+Text Label 2050 1800 2    39   ~ 0
+VDD3
+Text Label 2800 1800 2    39   ~ 0
+VDD4
+Text Label 3800 1800 2    39   ~ 0
+VDDA
+Connection ~ 800  1800
+Wire Wire Line
+	800  1800 800  1900
+Wire Wire Line
+	800  1550 800  1800
+Wire Wire Line
+	800  1800 1050 1800
+Text Label 1050 1800 2    39   ~ 0
+VDD1
+Wire Wire Line
+	2550 1800 2800 1800
+Wire Wire Line
+	3550 1800 3800 1800
+Wire Notes Line
+	650  2200 4150 2200
+Wire Notes Line
+	4150 850  650  850 
+Text Notes 650  800  0    59   ~ 0
+Decoupling capacitors for MCU (Figure 11, p. 57)\nImportant: Must be close to MCU
+Wire Notes Line
+	650  2750 4150 2750
+$Comp
+L MCU_ST_STM32F3:STM32F303RCTx MCU
+U 1 1 60019893
+P 2350 5150
+F 0 "MCU" H 2350 5150 50  0000 C CNN
+F 1 "STM32F303RCTx" H 2350 5000 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1750 3450 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 2750 2100 50  0001 C CNN
+	1    2350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6002C7D0
+P 1300 1150
+F 0 "#PWR?" H 1300 1000 50  0001 C CNN
+F 1 "+3.3V" H 1315 1323 50  0000 C CNN
+F 2 "" H 1300 1150 50  0001 C CNN
+F 3 "" H 1300 1150 50  0001 C CNN
+	1    1300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6004388A
+P 1300 1900
+F 0 "#PWR?" H 1300 1650 50  0001 C CNN
+F 1 "GND" H 1305 1727 50  0000 C CNN
+F 2 "" H 1300 1900 50  0001 C CNN
+F 3 "" H 1300 1900 50  0001 C CNN
+	1    1300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6009E042
+P 2250 6950
+F 0 "#PWR?" H 2250 6700 50  0001 C CNN
+F 1 "GND" V 2250 6750 50  0000 C CNN
+F 2 "" H 2250 6950 50  0001 C CNN
+F 3 "" H 2250 6950 50  0001 C CNN
+	1    2250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600A083C
+P 2350 6950
+F 0 "#PWR?" H 2350 6700 50  0001 C CNN
+F 1 "GND" V 2350 6750 50  0000 C CNN
+F 2 "" H 2350 6950 50  0001 C CNN
+F 3 "" H 2350 6950 50  0001 C CNN
+	1    2350 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600A0B5D
+P 2450 6950
+F 0 "#PWR?" H 2450 6700 50  0001 C CNN
+F 1 "GND" V 2450 6750 50  0000 C CNN
+F 2 "" H 2450 6950 50  0001 C CNN
+F 3 "" H 2450 6950 50  0001 C CNN
+	1    2450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600A0ED6
+P 2550 6950
+F 0 "#PWR?" H 2550 6700 50  0001 C CNN
+F 1 "GND" V 2550 6750 50  0000 C CNN
+F 2 "" H 2550 6950 50  0001 C CNN
+F 3 "" H 2550 6950 50  0001 C CNN
+	1    2550 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3350 2250 3100
+Text Label 2250 3100 3    39   ~ 0
+VDD1
+Wire Wire Line
+	2350 3350 2350 3100
+Wire Wire Line
+	2450 3350 2450 3100
+Wire Wire Line
+	2550 3350 2550 3100
+Wire Wire Line
+	2650 3350 2650 3100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 600ACF19
+P 2150 3100
+F 0 "#PWR?" H 2150 2950 50  0001 C CNN
+F 1 "+3.3V" H 2165 3273 50  0000 C CNN
+F 2 "" H 2150 3100 50  0001 C CNN
+F 3 "" H 2150 3100 50  0001 C CNN
+	1    2150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3100 2150 3350
+Text Label 2350 3100 3    39   ~ 0
+VDD2
+Text Label 2450 3100 3    39   ~ 0
+VDD3
+Text Label 2550 3100 3    39   ~ 0
+VDD4
+Text Label 2650 3100 3    39   ~ 0
+VDDA
+Text Notes 850  2700 2    59   ~ 0
+MCU
+Wire Notes Line
+	4150 2200 4150 850 
+Wire Notes Line
+	650  850  650  2200
+Wire Notes Line
+	4150 7600 650  7600
+Wire Notes Line
+	650  7600 650  2750
+Wire Notes Line
+	4150 2750 4150 7600
+$Comp
+L Device:Resonator Y1
+U 1 1 600C6C99
+P 5000 7100
+F 0 "Y1" H 5000 7348 50  0000 C CNN
+F 1 "Resonator" H 5000 7257 50  0000 C CNN
+F 2 "" H 4975 7100 50  0001 C CNN
+F 3 "~" H 4975 7100 50  0001 C CNN
+	1    5000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600CAD3B
+P 5000 7300
+F 0 "#PWR?" H 5000 7050 50  0001 C CNN
+F 1 "GND" H 5005 7127 50  0000 C CNN
+F 2 "" H 5000 7300 50  0001 C CNN
+F 3 "" H 5000 7300 50  0001 C CNN
+	1    5000 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 7100 4850 7100
+Wire Notes Line
+	4350 6700 4350 7600
+Wire Notes Line
+	5700 7600 5700 6700
+Text Notes 4350 6650 0    59   ~ 0
+Crystal / Resonator
+Wire Wire Line
+	1650 4650 1450 4650
+Wire Wire Line
+	1650 4750 1450 4750
+Text GLabel 1450 4650 0    47   Input ~ 0
+OSC_IN
+Text GLabel 1450 4750 0    47   Output ~ 0
+OSC_OUT
+Wire Wire Line
+	5150 7100 5300 7100
+Text GLabel 5300 7100 2    47   Output ~ 0
+OSC_OUT
+Text GLabel 4700 7100 0    47   Output ~ 0
+OSC_IN
+Wire Notes Line
+	4350 6700 5700 6700
+Wire Notes Line
+	4350 7600 5700 7600
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U1
+U 1 1 600F3DAF
+P 5550 5800
+F 0 "U1" H 5550 6042 50  0000 C CNN
+F 1 "MCP1700-3302E_SOT23" H 5550 5951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5550 6025 50  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Low-Quiescent-Current-LDO-20001826E.pdf" H 5550 5800 50  0001 C CNN
+	1    5550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600F5097
+P 5550 6100
+F 0 "#PWR?" H 5550 5850 50  0001 C CNN
+F 1 "GND" H 5555 5927 50  0000 C CNN
+F 2 "" H 5550 6100 50  0001 C CNN
+F 3 "" H 5550 6100 50  0001 C CNN
+	1    5550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 600F5D8F
+P 4850 6000
+F 0 "C8" H 4942 6046 50  0000 L CNN
+F 1 "1 uF" H 4942 5955 50  0000 L CNN
+F 2 "" H 4850 6000 50  0001 C CNN
+F 3 "~" H 4850 6000 50  0001 C CNN
+	1    4850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 600F91A5
+P 6250 6000
+F 0 "C9" H 6342 6046 50  0000 L CNN
+F 1 "1 uF" H 6342 5955 50  0000 L CNN
+F 2 "" H 6250 6000 50  0001 C CNN
+F 3 "~" H 6250 6000 50  0001 C CNN
+	1    6250 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5800 6250 5900
+$Comp
+L power:GND #PWR?
+U 1 1 600FCE02
+P 6250 6100
+F 0 "#PWR?" H 6250 5850 50  0001 C CNN
+F 1 "GND" H 6255 5927 50  0000 C CNN
+F 2 "" H 6250 6100 50  0001 C CNN
+F 3 "" H 6250 6100 50  0001 C CNN
+	1    6250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600FE4CE
+P 4850 6100
+F 0 "#PWR?" H 4850 5850 50  0001 C CNN
+F 1 "GND" H 4855 5927 50  0000 C CNN
+F 2 "" H 4850 6100 50  0001 C CNN
+F 3 "" H 4850 6100 50  0001 C CNN
+	1    4850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5900 4850 5800
+Connection ~ 4850 5800
+Wire Wire Line
+	6250 5800 6250 5700
+Connection ~ 6250 5800
+Wire Wire Line
+	4700 5800 4850 5800
+Text GLabel 4700 5800 0    47   Input ~ 0
+VBUS
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60104114
+P 6250 5700
+F 0 "#PWR?" H 6250 5550 50  0001 C CNN
+F 1 "+3.3V" H 6265 5873 50  0000 C CNN
+F 2 "" H 6250 5700 50  0001 C CNN
+F 3 "" H 6250 5700 50  0001 C CNN
+	1    6250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60105131
+P 4850 5700
+F 0 "#PWR?" H 4850 5550 50  0001 C CNN
+F 1 "+5V" H 4865 5873 50  0000 C CNN
+F 2 "" H 4850 5700 50  0001 C CNN
+F 3 "" H 4850 5700 50  0001 C CNN
+	1    4850 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5800 5250 5800
+Wire Wire Line
+	5850 5800 6250 5800
+Wire Wire Line
+	4850 5700 4850 5800
+Wire Notes Line
+	4350 6450 6650 6450
+Wire Notes Line
+	6650 5350 4350 5350
+Wire Notes Line
+	4350 5350 4350 6450
+Wire Notes Line
+	6650 5350 6650 6450
+Text Notes 4350 5300 0    59   ~ 0
+Linear voltage regulator from USB 5V to MCU 3.3V 
+$Comp
+L Connector:USB_C_Receptacle J1
+U 1 1 6011DF29
+P 7750 2500
+F 0 "J1" H 7857 3767 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 7857 3676 50  0000 C CNN
+F 2 "" H 7900 2500 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7900 2500 50  0001 C CNN
+	1    7750 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 1500 2    47   Input ~ 0
+VBUS
+$Comp
+L power:GND #PWR?
+U 1 1 6012551D
+P 7750 4100
+F 0 "#PWR?" H 7750 3850 50  0001 C CNN
+F 1 "GND" H 7755 3927 50  0000 C CNN
+F 2 "" H 7750 4100 50  0001 C CNN
+F 3 "" H 7750 4100 50  0001 C CNN
+	1    7750 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8350 3800
+NoConn ~ 8350 3700
 $EndSCHEMATC
