@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/../libraries/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name LED_Small)(type Legacy)(uri C:/Users/biosmanager/Source/Repos/tfk/libraries/LED_Small/LED_Small.lib)(options "")(descr ""))
 )
