@@ -24,4 +24,174 @@ F 3 "" H 975 1275 60  0001 C CNN
 	1    1600 1300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1750 1250 1750 850 
+$Comp
+L Device:D_Small D?
+U 1 1 601B104B
+P 1550 1550
+F 0 "D?" V 1600 1850 39  0000 R CNN
+F 1 "D_Small" V 1500 1850 39  0000 R CNN
+F 2 "" V 1550 1550 50  0001 C CNN
+F 3 "~" V 1550 1550 50  0001 C CNN
+	1    1550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 601B478E
+P 2150 1300
+F 0 "MX?" H 2183 1523 60  0000 C CNN
+F 1 "MX-NoLED" H 2183 1449 20  0000 C CNN
+F 2 "" H 1525 1275 60  0001 C CNN
+F 3 "" H 1525 1275 60  0001 C CNN
+	1    2150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1250 2300 850 
+$Comp
+L Device:D_Small D?
+U 1 1 601B4795
+P 2100 1550
+F 0 "D?" V 2150 1850 39  0000 R CNN
+F 1 "D_Small" V 2050 1850 39  0000 R CNN
+F 2 "" V 2100 1550 50  0001 C CNN
+F 3 "~" V 2100 1550 50  0001 C CNN
+	1    2100 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 601B5B28
+P 2700 1300
+F 0 "MX?" H 2733 1523 60  0000 C CNN
+F 1 "MX-NoLED" H 2733 1449 20  0000 C CNN
+F 2 "" H 2075 1275 60  0001 C CNN
+F 3 "" H 2075 1275 60  0001 C CNN
+	1    2700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1250 2850 850 
+$Comp
+L Device:D_Small D?
+U 1 1 601B5B2F
+P 2650 1550
+F 0 "D?" V 2700 1850 39  0000 R CNN
+F 1 "D_Small" V 2600 1850 39  0000 R CNN
+F 2 "" V 2650 1550 50  0001 C CNN
+F 3 "~" V 2650 1550 50  0001 C CNN
+	1    2650 1550
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1750 850  0    50   Input ~ 0
+Col0
+Connection ~ 1750 1250
+Wire Wire Line
+	1550 1650 1550 1750
+Wire Wire Line
+	1550 1750 2100 1750
+Wire Wire Line
+	2100 1650 2100 1750
+Connection ~ 2100 1750
+Wire Wire Line
+	2100 1750 2650 1750
+Wire Wire Line
+	2650 1650 2650 1750
+Connection ~ 2650 1750
+Wire Wire Line
+	2650 1750 3400 1750
+Text HLabel 2300 850  0    50   Input ~ 0
+Col1
+Text HLabel 2850 850  0    50   Input ~ 0
+Col2
+Wire Wire Line
+	1550 1750 1000 1750
+Connection ~ 1550 1750
+Text HLabel 1000 1750 0    50   Input ~ 0
+Row0
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 601C32AD
+P 1600 2100
+F 0 "MX?" H 1633 2323 60  0000 C CNN
+F 1 "MX-NoLED" H 1633 2249 20  0000 C CNN
+F 2 "" H 975 2075 60  0001 C CNN
+F 3 "" H 975 2075 60  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 601C32B4
+P 1550 2350
+F 0 "D?" V 1600 2650 39  0000 R CNN
+F 1 "D_Small" V 1500 2650 39  0000 R CNN
+F 2 "" V 1550 2350 50  0001 C CNN
+F 3 "~" V 1550 2350 50  0001 C CNN
+	1    1550 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 601C32BA
+P 2150 2100
+F 0 "MX?" H 2183 2323 60  0000 C CNN
+F 1 "MX-NoLED" H 2183 2249 20  0000 C CNN
+F 2 "" H 1525 2075 60  0001 C CNN
+F 3 "" H 1525 2075 60  0001 C CNN
+	1    2150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 601C32C1
+P 2100 2350
+F 0 "D?" V 2150 2650 39  0000 R CNN
+F 1 "D_Small" V 2050 2650 39  0000 R CNN
+F 2 "" V 2100 2350 50  0001 C CNN
+F 3 "~" V 2100 2350 50  0001 C CNN
+	1    2100 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 601C32C7
+P 2700 2100
+F 0 "MX?" H 2733 2323 60  0000 C CNN
+F 1 "MX-NoLED" H 2733 2249 20  0000 C CNN
+F 2 "" H 2075 2075 60  0001 C CNN
+F 3 "" H 2075 2075 60  0001 C CNN
+	1    2700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 601C32CE
+P 2650 2350
+F 0 "D?" V 2700 2650 39  0000 R CNN
+F 1 "D_Small" V 2600 2650 39  0000 R CNN
+F 2 "" V 2650 2350 50  0001 C CNN
+F 3 "~" V 2650 2350 50  0001 C CNN
+	1    2650 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 2050 1750 2850
+Connection ~ 1750 2050
+Wire Wire Line
+	2300 2050 2300 2850
+Connection ~ 2300 2050
+Wire Wire Line
+	2850 2050 2850 2850
+Connection ~ 2850 2050
+Wire Wire Line
+	1750 1250 1750 2050
+Connection ~ 2300 1250
+Wire Wire Line
+	2850 1250 2850 2050
+Connection ~ 2850 1250
+Wire Wire Line
+	2300 1250 2300 2050
 $EndSCHEMATC

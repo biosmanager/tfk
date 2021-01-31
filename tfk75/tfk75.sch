@@ -29,7 +29,7 @@ L Device:C_Small C1
 U 1 1 6005EF74
 P 800 1500
 F 0 "C1" H 892 1546 50  0000 L CNN
-F 1 "100 nF" H 892 1455 50  0000 L CNN
+F 1 "100n" H 892 1455 50  0000 L CNN
 F 2 "" H 800 1500 50  0001 C CNN
 F 3 "~" H 800 1500 50  0001 C CNN
 	1    800  1500
@@ -40,7 +40,7 @@ L Device:C_Small C3
 U 1 1 600622B6
 P 1800 1500
 F 0 "C3" H 1892 1546 50  0000 L CNN
-F 1 "100 nF" H 1892 1455 50  0000 L CNN
+F 1 "100n" H 1892 1455 50  0000 L CNN
 F 2 "" H 1800 1500 50  0001 C CNN
 F 3 "~" H 1800 1500 50  0001 C CNN
 	1    1800 1500
@@ -51,7 +51,7 @@ L Device:C_Small C4
 U 1 1 6006295D
 P 2300 1500
 F 0 "C4" H 2392 1546 50  0000 L CNN
-F 1 "100 nF" H 2392 1455 50  0000 L CNN
+F 1 "100n" H 2392 1455 50  0000 L CNN
 F 2 "" H 2300 1500 50  0001 C CNN
 F 3 "~" H 2300 1500 50  0001 C CNN
 	1    2300 1500
@@ -62,7 +62,7 @@ L Device:C_Small C5
 U 1 1 60062EA5
 P 3300 1500
 F 0 "C5" H 3392 1546 50  0000 L CNN
-F 1 "4.7 uF" H 3392 1455 50  0000 L CNN
+F 1 "4.7u" H 3392 1455 50  0000 L CNN
 F 2 "" H 3300 1500 50  0001 C CNN
 F 3 "~" H 3300 1500 50  0001 C CNN
 	1    3300 1500
@@ -73,7 +73,7 @@ L Device:C_Small C2
 U 1 1 60061815
 P 1300 1500
 F 0 "C2" H 1392 1546 50  0000 L CNN
-F 1 "100 nF" H 1392 1455 50  0000 L CNN
+F 1 "100n" H 1392 1455 50  0000 L CNN
 F 2 "" H 1300 1500 50  0001 C CNN
 F 3 "~" H 1300 1500 50  0001 C CNN
 	1    1300 1500
@@ -84,7 +84,7 @@ L Device:C_Small C6
 U 1 1 6006A8CD
 P 2800 1500
 F 0 "C6" H 2892 1546 50  0000 L CNN
-F 1 "10 nF" H 2892 1455 50  0000 L CNN
+F 1 "10n" H 2892 1455 50  0000 L CNN
 F 2 "" H 2800 1500 50  0001 C CNN
 F 3 "~" H 2800 1500 50  0001 C CNN
 	1    2800 1500
@@ -95,7 +95,7 @@ L Device:C_Small C7
 U 1 1 6006AD04
 P 3800 1500
 F 0 "C7" H 3892 1546 50  0000 L CNN
-F 1 "1 uF" H 3892 1455 50  0000 L CNN
+F 1 "1u" H 3892 1455 50  0000 L CNN
 F 2 "" H 3800 1500 50  0001 C CNN
 F 3 "~" H 3800 1500 50  0001 C CNN
 	1    3800 1500
@@ -143,6 +143,7 @@ F 0 "MCU" H 2350 5150 50  0000 C CNN
 F 1 "STM32F303RCTx" H 2350 5000 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1750 3450 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 2750 2100 50  0001 C CNN
+F 4 "https://www.st.com/resource/en/reference_manual/dm00043574-stm32f303xbcde-stm32f303x68-stm32f328x8-stm32f358xc-stm32f398xe-advanced-armbased-mcus-stmicroelectronics.pdf" H 2350 5150 50  0001 C CNN "Reference Manual"
 	1    2350 5150
 	1    0    0    -1  
 $EndComp
@@ -233,7 +234,7 @@ L Device:C_Small C8
 U 1 1 600F5D8F
 P 4850 6000
 F 0 "C8" H 4942 6046 50  0000 L CNN
-F 1 "1 uF" H 4942 5955 50  0000 L CNN
+F 1 "1u" H 4942 5955 50  0000 L CNN
 F 2 "" H 4850 6000 50  0001 C CNN
 F 3 "~" H 4850 6000 50  0001 C CNN
 	1    4850 6000
@@ -244,7 +245,7 @@ L Device:C_Small C9
 U 1 1 600F91A5
 P 6250 6000
 F 0 "C9" H 6342 6046 50  0000 L CNN
-F 1 "1 uF" H 6342 5955 50  0000 L CNN
+F 1 "1u" H 6342 5955 50  0000 L CNN
 F 2 "" H 6250 6000 50  0001 C CNN
 F 3 "~" H 6250 6000 50  0001 C CNN
 	1    6250 6000
@@ -322,30 +323,8 @@ Wire Notes Line
 	6650 5350 6650 6450
 Text Notes 4350 5300 0    59   ~ 0
 Linear voltage regulator from USB 5V to MCU 3.3V 
-$Comp
-L Connector:USB_C_Receptacle J1
-U 1 1 6011DF29
-P 10050 4550
-F 0 "J1" H 10157 5817 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 10157 5726 50  0000 C CNN
-F 2 "" H 10200 4550 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10200 4550 50  0001 C CNN
-	1    10050 4550
-	1    0    0    -1  
-$EndComp
-Text GLabel 10650 3550 2    47   Input ~ 0
+Text GLabel 9050 1450 2    47   Input ~ 0
 VBUS
-$Comp
-L power:GND #PWR?
-U 1 1 6012551D
-P 10050 6150
-F 0 "#PWR?" H 10050 5900 50  0001 C CNN
-F 1 "GND" H 10055 5977 50  0000 C CNN
-F 2 "" H 10050 6150 50  0001 C CNN
-F 3 "" H 10050 6150 50  0001 C CNN
-	1    10050 6150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10650 5850
 NoConn ~ 10650 5750
 NoConn ~ -2200 1450
@@ -478,4 +457,145 @@ U 60121801
 F0 "tfk75 Key Matrix" 50
 F1 "tfk75_key_matrix.sch" 50
 $EndSheet
+Wire Wire Line
+	9050 2050 9050 2000
+Connection ~ 9050 2000
+Wire Wire Line
+	9050 2000 9050 1950
+Wire Wire Line
+	9050 2150 9050 2200
+Connection ~ 9050 2200
+Wire Wire Line
+	9050 2200 9050 2250
+Text Label 9100 2000 0    50   ~ 0
+USB_D-
+Text Label 9100 2200 0    50   ~ 0
+USB_D+
+Wire Wire Line
+	9050 2000 9400 2000
+Wire Wire Line
+	9050 2200 9400 2200
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 601413ED
+P 8450 2050
+F 0 "J?" H 8557 2917 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 8557 2826 50  0000 C CNN
+F 2 "" H 8600 2050 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8600 2050 50  0001 C CNN
+	1    8450 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9050 2550
+NoConn ~ 9050 2650
+$Comp
+L Device:R_Small R?
+U 1 1 60151F7D
+P 9700 1650
+F 0 "R?" V 9504 1650 50  0000 C CNN
+F 1 "5.1k" V 9595 1650 50  0000 C CNN
+F 2 "" H 9700 1650 50  0001 C CNN
+F 3 "~" H 9700 1650 50  0001 C CNN
+	1    9700 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60153BF0
+P 9700 1750
+F 0 "R?" V 9800 1750 50  0000 C CNN
+F 1 "5.1k" V 9900 1750 50  0000 C CNN
+F 2 "" H 9700 1750 50  0001 C CNN
+F 3 "~" H 9700 1750 50  0001 C CNN
+	1    9700 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 1750 10000 1750
+Wire Wire Line
+	10000 1750 10000 1850
+$Comp
+L power:GND #PWR?
+U 1 1 60158D0A
+P 10000 1850
+F 0 "#PWR?" H 10000 1600 50  0001 C CNN
+F 1 "GND" H 10005 1677 50  0000 C CNN
+F 2 "" H 10000 1850 50  0001 C CNN
+F 3 "" H 10000 1850 50  0001 C CNN
+	1    10000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1650 10000 1750
+Connection ~ 10000 1750
+Wire Wire Line
+	9800 1650 10000 1650
+Wire Wire Line
+	9050 1650 9600 1650
+Wire Wire Line
+	9050 1750 9600 1750
+Wire Wire Line
+	8150 3250 8150 3350
+Wire Wire Line
+	8150 3350 7800 3350
+Wire Wire Line
+	7800 3350 7800 3300
+Wire Wire Line
+	7800 2950 7800 3000
+Wire Wire Line
+	8150 3050 8150 2950
+$Comp
+L power:GND #PWR?
+U 1 1 6019DA71
+P 8150 3400
+F 0 "#PWR?" H 8150 3150 50  0001 C CNN
+F 1 "GND" H 8155 3227 50  0000 C CNN
+F 2 "" H 8150 3400 50  0001 C CNN
+F 3 "" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3400 8150 3350
+Connection ~ 8150 3350
+Connection ~ 8150 2950
+Wire Wire Line
+	7800 2950 8150 2950
+$Comp
+L Device:C_Small C?
+U 1 1 60193496
+P 8150 3150
+F 0 "C?" H 8242 3196 50  0000 L CNN
+F 1 "4.7n" H 8242 3105 50  0000 L CNN
+F 2 "" H 8150 3150 50  0001 C CNN
+F 3 "~" H 8150 3150 50  0001 C CNN
+	1    8150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60192B79
+P 7800 3150
+F 0 "R?" H 7870 3196 50  0000 L CNN
+F 1 "1M" H 7870 3105 50  0000 L CNN
+F 2 "" V 7730 3150 50  0001 C CNN
+F 3 "~" H 7800 3150 50  0001 C CNN
+	1    7800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2950 8700 2950
+Wire Wire Line
+	8700 2950 8700 3400
+$Comp
+L power:GND #PWR?
+U 1 1 601AF22A
+P 8700 3400
+F 0 "#PWR?" H 8700 3150 50  0001 C CNN
+F 1 "GND" H 8705 3227 50  0000 C CNN
+F 2 "" H 8700 3400 50  0001 C CNN
+F 3 "" H 8700 3400 50  0001 C CNN
+	1    8700 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
