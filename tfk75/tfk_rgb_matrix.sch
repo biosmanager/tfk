@@ -16,12 +16,399 @@ $EndDescr
 $Comp
 L LED:WS2812B D?
 U 1 1 60AB8EDF
-P 1600 1450
-F 0 "D?" H 1944 1496 50  0000 L CNN
-F 1 "WS2812B" H 1944 1405 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1650 1150 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1700 1075 50  0001 L TNN
-	1    1600 1450
+P 1400 1450
+F 0 "D?" H 1550 1700 50  0000 L CNN
+F 1 "WS2812B" H 1500 1100 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1450 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1500 1075 50  0001 L TNN
+	1    1400 1450
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60189842
+P 950 800
+F 0 "#PWR?" H 950 650 50  0001 C CNN
+F 1 "+5V" H 965 973 50  0000 C CNN
+F 2 "" H 950 800 50  0001 C CNN
+F 3 "" H 950 800 50  0001 C CNN
+	1    950  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 601AC1F6
+P 1750 1050
+F 0 "C?" H 1842 1096 50  0000 L CNN
+F 1 "104" H 1842 1005 50  0000 L CNN
+F 2 "" H 1750 1050 50  0001 C CNN
+F 3 "~" H 1750 1050 50  0001 C CNN
+	1    1750 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1150 1400 900 
+Wire Wire Line
+	1400 900  1750 900 
+$Comp
+L LED:WS2812B D?
+U 1 1 601B2416
+P 2100 1450
+F 0 "D?" H 2250 1700 50  0000 L CNN
+F 1 "WS2812B" H 2200 1100 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2150 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2200 1075 50  0001 L TNN
+	1    2100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  900  950  800 
+Wire Wire Line
+	950  900  1400 900 
+Connection ~ 1400 900 
+Wire Wire Line
+	1750 900  1750 950 
+Wire Wire Line
+	1700 1450 1800 1450
+Wire Wire Line
+	1400 1750 1400 1800
+Wire Wire Line
+	2100 1800 2100 1750
+Wire Wire Line
+	2100 1800 2450 1800
+Connection ~ 2100 1800
+$Comp
+L LED:WS2812B D?
+U 1 1 60216EDC
+P 2800 1450
+F 0 "D?" H 2950 1700 50  0000 L CNN
+F 1 "WS2812B" H 2900 1100 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2850 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2900 1075 50  0001 L TNN
+	1    2800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60216EE2
+P 3150 1050
+F 0 "C?" H 3242 1096 50  0000 L CNN
+F 1 "104" H 3242 1005 50  0000 L CNN
+F 2 "" H 3150 1050 50  0001 C CNN
+F 3 "~" H 3150 1050 50  0001 C CNN
+	1    3150 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1150 2800 900 
+$Comp
+L LED:WS2812B D?
+U 1 1 60216EEA
+P 3500 1450
+F 0 "D?" H 3650 1700 50  0000 L CNN
+F 1 "WS2812B" H 3600 1100 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3550 1150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3600 1075 50  0001 L TNN
+	1    3500 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 900 
+Wire Wire Line
+	3150 900  3150 950 
+Wire Wire Line
+	3100 1450 3200 1450
+Wire Wire Line
+	2800 1750 2800 1800
+Wire Wire Line
+	2800 1800 3150 1800
+Wire Wire Line
+	3150 1150 3150 1800
+Wire Wire Line
+	3150 1800 3500 1800
+Wire Wire Line
+	3500 1800 3500 1750
+Connection ~ 3150 1800
+Wire Wire Line
+	3500 1800 3850 1800
+Connection ~ 3500 1800
+$Comp
+L Device:C_Small C?
+U 1 1 6021A034
+P 2450 1050
+F 0 "C?" H 2542 1096 50  0000 L CNN
+F 1 "104" H 2542 1005 50  0000 L CNN
+F 2 "" H 2450 1050 50  0001 C CNN
+F 3 "~" H 2450 1050 50  0001 C CNN
+	1    2450 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1150 2450 1800
+Connection ~ 2450 1800
+Wire Wire Line
+	2400 1450 2500 1450
+Wire Wire Line
+	2450 1800 2800 1800
+Connection ~ 2800 1800
+Wire Wire Line
+	1750 900  2100 900 
+Connection ~ 1750 900 
+Wire Wire Line
+	2800 900  3150 900 
+Connection ~ 3150 900 
+Wire Wire Line
+	3150 900  3500 900 
+Connection ~ 3150 1950
+Wire Wire Line
+	3150 1950 3850 1950
+Wire Wire Line
+	2800 2850 3150 2850
+Connection ~ 2800 2850
+Wire Wire Line
+	3500 2850 3500 2800
+Connection ~ 2100 2850
+Wire Wire Line
+	2800 2850 2800 2800
+Wire Wire Line
+	2100 2850 2450 2850
+Connection ~ 1750 2850
+Wire Wire Line
+	2100 2850 1750 2850
+Wire Wire Line
+	2100 2800 2100 2850
+Wire Wire Line
+	1400 2850 1750 2850
+Wire Wire Line
+	1400 2800 1400 2850
+Wire Wire Line
+	2400 2500 2500 2500
+Wire Wire Line
+	2450 1950 2800 1950
+Connection ~ 2450 1950
+Wire Wire Line
+	2450 1950 2450 2000
+Connection ~ 1750 1950
+Wire Wire Line
+	1750 1950 2450 1950
+$Comp
+L Device:C_Small C?
+U 1 1 60218757
+P 2450 2100
+F 0 "C?" H 2542 2146 50  0000 L CNN
+F 1 "104" H 2542 2055 50  0000 L CNN
+F 2 "" H 2450 2100 50  0001 C CNN
+F 3 "~" H 2450 2100 50  0001 C CNN
+	1    2450 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2500 3200 2500
+Wire Wire Line
+	3150 1950 3150 2000
+Connection ~ 2800 1950
+$Comp
+L LED:WS2812B D?
+U 1 1 60216F0A
+P 3500 2500
+F 0 "D?" H 3650 2750 50  0000 L CNN
+F 1 "WS2812B" H 3600 2150 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3550 2200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3600 2125 50  0001 L TNN
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1950 3150 1950
+Wire Wire Line
+	2800 2200 2800 1950
+$Comp
+L Device:C_Small C?
+U 1 1 60216F02
+P 3150 2100
+F 0 "C?" H 3242 2146 50  0000 L CNN
+F 1 "104" H 3242 2055 50  0000 L CNN
+F 2 "" H 3150 2100 50  0001 C CNN
+F 3 "~" H 3150 2100 50  0001 C CNN
+	1    3150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 60216EFC
+P 2800 2500
+F 0 "D?" H 2950 2750 50  0000 L CNN
+F 1 "WS2812B" H 2900 2150 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2850 2200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2900 2125 50  0001 L TNN
+	1    2800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2200 1750 2850
+Wire Wire Line
+	1700 2500 1800 2500
+Wire Wire Line
+	1750 1950 1750 2000
+Connection ~ 1400 1950
+Wire Wire Line
+	950  1950 1400 1950
+$Comp
+L LED:WS2812B D?
+U 1 1 601E04F5
+P 2100 2500
+F 0 "D?" H 2250 2750 50  0000 L CNN
+F 1 "WS2812B" H 2200 2150 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2150 2200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2200 2125 50  0001 L TNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1950 1750 1950
+Wire Wire Line
+	1400 2200 1400 1950
+$Comp
+L Device:C_Small C?
+U 1 1 601E04ED
+P 1750 2100
+F 0 "C?" H 1842 2146 50  0000 L CNN
+F 1 "104" H 1842 2055 50  0000 L CNN
+F 2 "" H 1750 2100 50  0001 C CNN
+F 3 "~" H 1750 2100 50  0001 C CNN
+	1    1750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 601E04E7
+P 1400 2500
+F 0 "D?" H 1550 2750 50  0000 L CNN
+F 1 "WS2812B" H 1500 2150 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1450 2200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1500 2125 50  0001 L TNN
+	1    1400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2850 2450 2200
+Connection ~ 2450 2850
+Wire Wire Line
+	2450 2850 2800 2850
+Wire Wire Line
+	3150 2200 3150 2850
+Connection ~ 3150 2850
+Wire Wire Line
+	3150 2850 3500 2850
+Wire Wire Line
+	950  1950 950  1850
+$Comp
+L power:+5V #PWR?
+U 1 1 6025360E
+P 950 1850
+F 0 "#PWR?" H 950 1700 50  0001 C CNN
+F 1 "+5V" H 965 2023 50  0000 C CNN
+F 2 "" H 950 1850 50  0001 C CNN
+F 3 "" H 950 1850 50  0001 C CNN
+	1    950  1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60253D05
+P 3850 2100
+F 0 "C?" H 3942 2146 50  0000 L CNN
+F 1 "104" H 3942 2055 50  0000 L CNN
+F 2 "" H 3850 2100 50  0001 C CNN
+F 3 "~" H 3850 2100 50  0001 C CNN
+	1    3850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1950 3850 2000
+Wire Wire Line
+	3850 2200 3850 2850
+Wire Wire Line
+	3850 2850 3500 2850
+Connection ~ 3500 2850
+Text HLabel 1100 1450 0    51   Input ~ 0
+RGB_MATRIX
+$Comp
+L Device:C_Small C?
+U 1 1 6026DAB1
+P 3850 1050
+F 0 "C?" H 3942 1096 50  0000 L CNN
+F 1 "104" H 3942 1005 50  0000 L CNN
+F 2 "" H 3850 1050 50  0001 C CNN
+F 3 "~" H 3850 1050 50  0001 C CNN
+	1    3850 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 950  3850 900 
+Wire Wire Line
+	3850 1150 3850 1800
+Connection ~ 3850 1800
+Wire Wire Line
+	2450 950  2450 900 
+Connection ~ 2450 900 
+Wire Wire Line
+	2450 900  2800 900 
+Wire Wire Line
+	2100 1150 2100 900 
+Connection ~ 2100 900 
+Wire Wire Line
+	2100 900  2450 900 
+Wire Wire Line
+	3500 1150 3500 900 
+Connection ~ 3500 900 
+Wire Wire Line
+	3500 900  3850 900 
+$Comp
+L power:GND #PWR?
+U 1 1 6028E469
+P 4300 1900
+F 0 "#PWR?" H 4300 1650 50  0001 C CNN
+F 1 "GND" H 4305 1727 50  0000 C CNN
+F 2 "" H 4300 1900 50  0001 C CNN
+F 3 "" H 4300 1900 50  0001 C CNN
+	1    4300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60290039
+P 4300 2950
+F 0 "#PWR?" H 4300 2700 50  0001 C CNN
+F 1 "GND" H 4305 2777 50  0000 C CNN
+F 2 "" H 4300 2950 50  0001 C CNN
+F 3 "" H 4300 2950 50  0001 C CNN
+	1    4300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2850 4300 2850
+Wire Wire Line
+	4300 2850 4300 2950
+Connection ~ 3850 2850
+Wire Wire Line
+	4300 1800 4300 1900
+Wire Wire Line
+	3850 1800 4300 1800
+Wire Wire Line
+	3800 1450 4300 1450
+Wire Wire Line
+	3800 2500 4300 2500
+Text Label 4300 1450 2    50   ~ 0
+BRIDGE_0
+Wire Wire Line
+	1100 2500 650  2500
+Text Label 650  2500 0    50   ~ 0
+BRIDGE_0
+Wire Wire Line
+	1400 1800 1750 1800
+Wire Wire Line
+	1750 1150 1750 1800
+Connection ~ 1750 1800
+Wire Wire Line
+	1750 1800 2100 1800
 $EndSCHEMATC
