@@ -4,15 +4,319 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "tfk20"
+Date "2021-02-02"
+Rev "0"
+Comp "biosmanager"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1450 950  0    50   Input ~ 0
+Text HLabel 1300 1850 0    50   Input ~ 0
 RGB_LIGHT
+$Comp
+L LED:WS2812B D?
+U 1 1 601B5D01
+P 1850 1850
+AR Path="/602C3063/601B5D01" Ref="D?"  Part="1" 
+AR Path="/602C340B/601B5D01" Ref="D?"  Part="1" 
+F 0 "D?" H 2100 1600 50  0000 L CNN
+F 1 "WS2812B" H 2100 1500 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1900 1550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1950 1475 50  0001 L TNN
+	1    1850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 601B5D07
+P 2250 1450
+AR Path="/602C3063/601B5D07" Ref="C?"  Part="1" 
+AR Path="/602C340B/601B5D07" Ref="C?"  Part="1" 
+F 0 "C?" H 2342 1496 50  0000 L CNN
+F 1 "104" H 2342 1405 50  0000 L CNN
+F 2 "" H 2250 1450 50  0001 C CNN
+F 3 "~" H 2250 1450 50  0001 C CNN
+	1    2250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1350 2250 1300
+Wire Wire Line
+	2250 1300 1850 1300
+Wire Wire Line
+	1850 1300 1850 1550
+$Comp
+L power:GND #PWR?
+U 1 1 601B5D10
+P 2250 1550
+AR Path="/602C3063/601B5D10" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D10" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2250 1300 50  0001 C CNN
+F 1 "GND" H 2255 1377 50  0000 C CNN
+F 2 "" H 2250 1550 50  0001 C CNN
+F 3 "" H 2250 1550 50  0001 C CNN
+	1    2250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 601B5D16
+P 1850 1200
+AR Path="/602C3063/601B5D16" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D16" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 1050 50  0001 C CNN
+F 1 "+5V" H 1865 1373 50  0000 C CNN
+F 2 "" H 1850 1200 50  0001 C CNN
+F 3 "" H 1850 1200 50  0001 C CNN
+	1    1850 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1200 1850 1300
+Connection ~ 1850 1300
+$Comp
+L power:GND #PWR?
+U 1 1 601B5D1E
+P 1850 2150
+AR Path="/602C3063/601B5D1E" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D1E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 1900 50  0001 C CNN
+F 1 "GND" H 1855 1977 50  0000 C CNN
+F 2 "" H 1850 2150 50  0001 C CNN
+F 3 "" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 601B5D24
+P 3150 1850
+AR Path="/602C3063/601B5D24" Ref="D?"  Part="1" 
+AR Path="/602C340B/601B5D24" Ref="D?"  Part="1" 
+F 0 "D?" H 3400 1600 50  0000 L CNN
+F 1 "WS2812B" H 3400 1500 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3200 1550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3250 1475 50  0001 L TNN
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 601B5D2A
+P 3600 1400
+AR Path="/602C3063/601B5D2A" Ref="C?"  Part="1" 
+AR Path="/602C340B/601B5D2A" Ref="C?"  Part="1" 
+F 0 "C?" H 3692 1446 50  0000 L CNN
+F 1 "104" H 3692 1355 50  0000 L CNN
+F 2 "" H 3600 1400 50  0001 C CNN
+F 3 "~" H 3600 1400 50  0001 C CNN
+	1    3600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1300 3150 1300
+Wire Wire Line
+	3150 1300 3150 1550
+$Comp
+L power:GND #PWR?
+U 1 1 601B5D32
+P 3600 1500
+AR Path="/602C3063/601B5D32" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D32" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3600 1250 50  0001 C CNN
+F 1 "GND" H 3605 1327 50  0000 C CNN
+F 2 "" H 3600 1500 50  0001 C CNN
+F 3 "" H 3600 1500 50  0001 C CNN
+	1    3600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 601B5D38
+P 3150 1200
+AR Path="/602C3063/601B5D38" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D38" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3150 1050 50  0001 C CNN
+F 1 "+5V" H 3165 1373 50  0000 C CNN
+F 2 "" H 3150 1200 50  0001 C CNN
+F 3 "" H 3150 1200 50  0001 C CNN
+	1    3150 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1200 3150 1300
+Connection ~ 3150 1300
+$Comp
+L power:GND #PWR?
+U 1 1 601B5D40
+P 3150 2150
+AR Path="/602C3063/601B5D40" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D40" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3150 1900 50  0001 C CNN
+F 1 "GND" H 3155 1977 50  0000 C CNN
+F 2 "" H 3150 2150 50  0001 C CNN
+F 3 "" H 3150 2150 50  0001 C CNN
+	1    3150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 601B5D46
+P 4450 1850
+AR Path="/602C3063/601B5D46" Ref="D?"  Part="1" 
+AR Path="/602C340B/601B5D46" Ref="D?"  Part="1" 
+F 0 "D?" H 4700 1600 50  0000 L CNN
+F 1 "WS2812B" H 4700 1500 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4500 1550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4550 1475 50  0001 L TNN
+	1    4450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 601B5D4C
+P 4850 1450
+AR Path="/602C3063/601B5D4C" Ref="C?"  Part="1" 
+AR Path="/602C340B/601B5D4C" Ref="C?"  Part="1" 
+F 0 "C?" H 4942 1496 50  0000 L CNN
+F 1 "104" H 4942 1405 50  0000 L CNN
+F 2 "" H 4850 1450 50  0001 C CNN
+F 3 "~" H 4850 1450 50  0001 C CNN
+	1    4850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1350 4850 1300
+Wire Wire Line
+	4850 1300 4450 1300
+Wire Wire Line
+	4450 1300 4450 1550
+$Comp
+L power:GND #PWR?
+U 1 1 601B5D55
+P 4850 1550
+AR Path="/602C3063/601B5D55" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D55" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4850 1300 50  0001 C CNN
+F 1 "GND" H 4855 1377 50  0000 C CNN
+F 2 "" H 4850 1550 50  0001 C CNN
+F 3 "" H 4850 1550 50  0001 C CNN
+	1    4850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 601B5D5B
+P 4450 1200
+AR Path="/602C3063/601B5D5B" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D5B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 1050 50  0001 C CNN
+F 1 "+5V" H 4465 1373 50  0000 C CNN
+F 2 "" H 4450 1200 50  0001 C CNN
+F 3 "" H 4450 1200 50  0001 C CNN
+	1    4450 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1200 4450 1300
+Connection ~ 4450 1300
+$Comp
+L power:GND #PWR?
+U 1 1 601B5D63
+P 4450 2150
+AR Path="/602C3063/601B5D63" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D63" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 1900 50  0001 C CNN
+F 1 "GND" H 4455 1977 50  0000 C CNN
+F 2 "" H 4450 2150 50  0001 C CNN
+F 3 "" H 4450 2150 50  0001 C CNN
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 601B5D69
+P 5750 1850
+AR Path="/602C3063/601B5D69" Ref="D?"  Part="1" 
+AR Path="/602C340B/601B5D69" Ref="D?"  Part="1" 
+F 0 "D?" H 6000 1600 50  0000 L CNN
+F 1 "WS2812B" H 6000 1500 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5800 1550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 1475 50  0001 L TNN
+	1    5750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 601B5D6F
+P 6200 1400
+AR Path="/602C3063/601B5D6F" Ref="C?"  Part="1" 
+AR Path="/602C340B/601B5D6F" Ref="C?"  Part="1" 
+F 0 "C?" H 6292 1446 50  0000 L CNN
+F 1 "104" H 6292 1355 50  0000 L CNN
+F 2 "" H 6200 1400 50  0001 C CNN
+F 3 "~" H 6200 1400 50  0001 C CNN
+	1    6200 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1300 5750 1300
+Wire Wire Line
+	5750 1300 5750 1550
+$Comp
+L power:GND #PWR?
+U 1 1 601B5D77
+P 6200 1500
+AR Path="/602C3063/601B5D77" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D77" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 1250 50  0001 C CNN
+F 1 "GND" H 6205 1327 50  0000 C CNN
+F 2 "" H 6200 1500 50  0001 C CNN
+F 3 "" H 6200 1500 50  0001 C CNN
+	1    6200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 601B5D7D
+P 5750 1200
+AR Path="/602C3063/601B5D7D" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D7D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 1050 50  0001 C CNN
+F 1 "+5V" H 5765 1373 50  0000 C CNN
+F 2 "" H 5750 1200 50  0001 C CNN
+F 3 "" H 5750 1200 50  0001 C CNN
+	1    5750 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1200 5750 1300
+Connection ~ 5750 1300
+$Comp
+L power:GND #PWR?
+U 1 1 601B5D85
+P 5750 2150
+AR Path="/602C3063/601B5D85" Ref="#PWR?"  Part="1" 
+AR Path="/602C340B/601B5D85" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 1900 50  0001 C CNN
+F 1 "GND" H 5755 1977 50  0000 C CNN
+F 2 "" H 5750 2150 50  0001 C CNN
+F 3 "" H 5750 2150 50  0001 C CNN
+	1    5750 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1850 2150 1850
+Wire Wire Line
+	3450 1850 4150 1850
+Wire Wire Line
+	4750 1850 5450 1850
+Wire Wire Line
+	1300 1850 1550 1850
+Wire Wire Line
+	6050 1850 6100 1850
+NoConn ~ 6100 1850
+NoConn ~ -2800 -100
 $EndSCHEMATC

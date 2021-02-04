@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "tfk20"
+Date "2021-02-02"
+Rev "0"
+Comp "biosmanager"
 Comment1 ""
 Comment2 ""
 Comment3 ""
