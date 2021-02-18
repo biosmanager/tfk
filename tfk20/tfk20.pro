@@ -1,4 +1,4 @@
-update=2021 February 07, Sunday 11:03:25
+update=2021 February 11, Thursday 21:01:38
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/Users/biosmanager/Desktop/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
