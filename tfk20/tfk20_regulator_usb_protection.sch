@@ -1,0 +1,520 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U4
+U 1 1 6093AEA1
+P 5600 2950
+F 0 "U4" H 5600 3192 50  0000 C CNN
+F 1 "MCP1700-3302E_SOT23" H 5600 3101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5600 3175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Microchip-Tech-MCP1700T-3302E-TT_C39051.pdf" H 5600 2950 50  0001 C CNN
+	1    5600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2950 4900 2850
+Wire Wire Line
+	4900 2950 5100 2950
+$Comp
+L power:+5V #PWR?
+U 1 1 6093AEA9
+P 4900 2850
+AR Path="/6093AEA9" Ref="#PWR?"  Part="1" 
+AR Path="/60815FFC/6093AEA9" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 4900 2700 50  0001 C CNN
+F 1 "+5V" H 4915 3023 50  0000 C CNN
+F 2 "" H 4900 2850 50  0001 C CNN
+F 3 "" H 4900 2850 50  0001 C CNN
+	1    4900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2950 6100 2950
+Wire Wire Line
+	6400 2950 6400 2850
+$Comp
+L power:+3.3V #PWR058
+U 1 1 6093AEB1
+P 6400 2850
+F 0 "#PWR058" H 6400 2700 50  0001 C CNN
+F 1 "+3.3V" H 6415 3023 50  0000 C CNN
+F 2 "" H 6400 2850 50  0001 C CNN
+F 3 "" H 6400 2850 50  0001 C CNN
+	1    6400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR056
+U 1 1 6093AEB7
+P 5600 3250
+F 0 "#PWR056" H 5600 3000 50  0001 C CNN
+F 1 "GND" H 5605 3077 50  0000 C CNN
+F 2 "" H 5600 3250 50  0001 C CNN
+F 3 "" H 5600 3250 50  0001 C CNN
+	1    5600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 6093AEBD
+P 5100 3100
+F 0 "C26" H 5192 3146 50  0000 L CNN
+F 1 "1u" H 5192 3055 50  0000 L CNN
+F 2 "" H 5100 3100 50  0001 C CNN
+F 3 "~" H 5100 3100 50  0001 C CNN
+	1    5100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 6093AEC3
+P 5100 3250
+F 0 "#PWR055" H 5100 3000 50  0001 C CNN
+F 1 "GND" H 5105 3077 50  0000 C CNN
+F 2 "" H 5100 3250 50  0001 C CNN
+F 3 "" H 5100 3250 50  0001 C CNN
+	1    5100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3250 5100 3200
+Wire Wire Line
+	5100 3000 5100 2950
+Connection ~ 5100 2950
+Wire Wire Line
+	5100 2950 5300 2950
+$Comp
+L Device:C_Small C27
+U 1 1 6093AECD
+P 6100 3100
+F 0 "C27" H 6192 3146 50  0000 L CNN
+F 1 "1u" H 6192 3055 50  0000 L CNN
+F 2 "" H 6100 3100 50  0001 C CNN
+F 3 "~" H 6100 3100 50  0001 C CNN
+	1    6100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR057
+U 1 1 6093AED3
+P 6100 3250
+F 0 "#PWR057" H 6100 3000 50  0001 C CNN
+F 1 "GND" H 6105 3077 50  0000 C CNN
+F 2 "" H 6100 3250 50  0001 C CNN
+F 3 "" H 6100 3250 50  0001 C CNN
+	1    6100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3250 6100 3200
+Wire Wire Line
+	6100 3000 6100 2950
+Connection ~ 6100 2950
+Wire Wire Line
+	6100 2950 6400 2950
+Text Notes 5200 4400 0    50   ~ 0
+The TCCP01-M12 internally\npresents the upstream facing \nport termination that \notherwise would be necessary\nfor CC1 and CC2.
+Text Notes 5150 2600 0    50   ~ 0
+Linear voltage regulator
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 6093AEDF
+P 2750 2950
+AR Path="/6093AEDF" Ref="F?"  Part="1" 
+AR Path="/60815FFC/6093AEDF" Ref="F1"  Part="1" 
+F 0 "F1" V 2545 2950 50  0000 C CNN
+F 1 "500mA" V 2636 2950 50  0000 C CNN
+F 2 "" H 2800 2750 50  0001 L CNN
+F 3 "~" H 2750 2950 50  0001 C CNN
+	1    2750 2950
+	0    1    1    0   
+$EndComp
+Connection ~ 4900 2950
+$Comp
+L tfk:TCCP01-M12 U?
+U 1 1 6093AEE6
+P 4400 4150
+AR Path="/6093AEE6" Ref="U?"  Part="1" 
+AR Path="/60815FFC/6093AEE6" Ref="U3"  Part="1" 
+F 0 "U3" H 4850 3400 50  0000 C CNN
+F 1 "TCCP01-M12" H 4850 3300 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm" H 4400 2800 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf" H 4250 4450 50  0001 C CNN
+	1    4400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6093AEF2
+P 3650 3500
+AR Path="/6093AEF2" Ref="C?"  Part="1" 
+AR Path="/60815FFC/6093AEF2" Ref="C25"  Part="1" 
+F 0 "C25" H 3742 3546 50  0000 L CNN
+F 1 "100n" H 3742 3455 50  0000 L CNN
+F 2 "" H 3650 3500 50  0001 C CNN
+F 3 "~" H 3650 3500 50  0001 C CNN
+	1    3650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6093AEF8
+P 3650 3600
+AR Path="/6093AEF8" Ref="#PWR?"  Part="1" 
+AR Path="/60815FFC/6093AEF8" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 3650 3350 50  0001 C CNN
+F 1 "GND" H 3655 3427 50  0000 C CNN
+F 2 "" H 3650 3600 50  0001 C CNN
+F 3 "" H 3650 3600 50  0001 C CNN
+	1    3650 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4000 3050 4000
+$Comp
+L Device:R_Small R?
+U 1 1 6093AEFF
+P 3050 4200
+AR Path="/6093AEFF" Ref="R?"  Part="1" 
+AR Path="/60815FFC/6093AEFF" Ref="R11"  Part="1" 
+F 0 "R11" H 3109 4246 50  0000 L CNN
+F 1 "2.7k" H 3109 4155 50  0000 L CNN
+F 2 "" H 3050 4200 50  0001 C CNN
+F 3 "~" H 3050 4200 50  0001 C CNN
+	1    3050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4100 3050 4000
+Connection ~ 3050 4000
+Wire Wire Line
+	3050 4000 3050 3900
+$Comp
+L power:GND #PWR?
+U 1 1 6093AF08
+P 3050 4300
+AR Path="/6093AF08" Ref="#PWR?"  Part="1" 
+AR Path="/60815FFC/6093AF08" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 3050 4050 50  0001 C CNN
+F 1 "GND" H 3055 4127 50  0000 C CNN
+F 2 "" H 3050 4300 50  0001 C CNN
+F 3 "" H 3050 4300 50  0001 C CNN
+	1    3050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6093AF0E
+P 3050 3800
+AR Path="/6093AF0E" Ref="R?"  Part="1" 
+AR Path="/60815FFC/6093AF0E" Ref="R10"  Part="1" 
+F 0 "R10" H 3109 3846 50  0000 L CNN
+F 1 "10k" H 3109 3755 50  0000 L CNN
+F 2 "" H 3050 3800 50  0001 C CNN
+F 3 "~" H 3050 3800 50  0001 C CNN
+	1    3050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3400 3650 3350
+Wire Wire Line
+	3650 3350 3450 3350
+Wire Wire Line
+	4300 3450 4300 3350
+Wire Wire Line
+	4300 3350 3650 3350
+Connection ~ 3650 3350
+Wire Wire Line
+	3250 3350 3050 3350
+Wire Wire Line
+	3050 3350 3050 3700
+Wire Wire Line
+	3900 4350 3850 4350
+Wire Wire Line
+	3900 4450 3850 4450
+Wire Wire Line
+	4900 4000 5000 4000
+Wire Wire Line
+	5000 4000 5000 4100
+$Comp
+L power:GND #PWR?
+U 1 1 6093AF1F
+P 5000 4500
+AR Path="/6093AF1F" Ref="#PWR?"  Part="1" 
+AR Path="/60815FFC/6093AF1F" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 5000 4250 50  0001 C CNN
+F 1 "GND" H 5005 4327 50  0000 C CNN
+F 2 "" H 5000 4500 50  0001 C CNN
+F 3 "" H 5000 4500 50  0001 C CNN
+	1    5000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4450 5000 4450
+Connection ~ 5000 4450
+Wire Wire Line
+	5000 4450 5000 4500
+Wire Wire Line
+	4900 4350 5000 4350
+Connection ~ 5000 4350
+Wire Wire Line
+	5000 4350 5000 4450
+Wire Wire Line
+	4900 4200 5000 4200
+Connection ~ 5000 4200
+Wire Wire Line
+	5000 4200 5000 4350
+Wire Wire Line
+	4900 4100 5000 4100
+Connection ~ 5000 4100
+Wire Wire Line
+	5000 4100 5000 4200
+Wire Wire Line
+	4350 4800 4350 4900
+Wire Wire Line
+	4350 4900 4400 4900
+Wire Wire Line
+	4450 4900 4450 4800
+Wire Wire Line
+	4400 4900 4400 4950
+Connection ~ 4400 4900
+Wire Wire Line
+	4400 4900 4450 4900
+$Comp
+L power:GND #PWR?
+U 1 1 6093AF37
+P 4400 4950
+AR Path="/6093AF37" Ref="#PWR?"  Part="1" 
+AR Path="/60815FFC/6093AF37" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 4400 4700 50  0001 C CNN
+F 1 "GND" H 4405 4777 50  0000 C CNN
+F 2 "" H 4400 4950 50  0001 C CNN
+F 3 "" H 4400 4950 50  0001 C CNN
+	1    4400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2950 2850 2950
+Wire Wire Line
+	2650 2950 2500 2950
+Wire Wire Line
+	4500 3450 4500 3350
+Wire Wire Line
+	4500 3350 4700 3350
+Text Notes 2550 4050 0    50   ~ 0
+VBUS OVP\nset to 6V
+Wire Wire Line
+	3050 2950 3050 3350
+Connection ~ 3050 3350
+Wire Wire Line
+	4700 3350 4700 2950
+Connection ~ 4700 2950
+Wire Wire Line
+	4600 2950 4700 2950
+Wire Wire Line
+	4200 2950 3050 2950
+Connection ~ 3050 2950
+Text Notes 3550 2650 0    50   ~ 0
+TODO: Update MOSFET\nfootprint
+Wire Wire Line
+	4400 3250 4400 3450
+Wire Wire Line
+	4700 2950 4900 2950
+Text Notes 2200 2400 0    50   ~ 0
+Voltage regulator, USB VBUS/CC overvoltage and ESD protection
+Wire Notes Line
+	2150 2250 2150 5250
+Wire Notes Line
+	2150 5250 6600 5250
+Wire Notes Line
+	6600 5250 6600 2250
+Wire Notes Line
+	6600 2250 2150 2250
+$Comp
+L Device:C_Small C?
+U 1 1 6093F36B
+P 8950 4000
+AR Path="/6093F36B" Ref="C?"  Part="1" 
+AR Path="/60815FFC/6093F36B" Ref="C28"  Part="1" 
+F 0 "C28" H 9200 3950 50  0000 R CNN
+F 1 "4.7n" H 9200 4050 50  0000 R CNN
+F 2 "" H 8950 4000 50  0001 C CNN
+F 3 "~" H 8950 4000 50  0001 C CNN
+	1    8950 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6093F371
+P 8950 4100
+AR Path="/6093F371" Ref="#PWR?"  Part="1" 
+AR Path="/60815FFC/6093F371" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 8950 3850 50  0001 C CNN
+F 1 "GND" H 8955 3927 50  0000 C CNN
+F 2 "" H 8950 4100 50  0001 C CNN
+F 3 "" H 8950 4100 50  0001 C CNN
+	1    8950 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 8250 4600 0    50   ~ 0
+Data line termination \nresistors for D+ and D-
+$Comp
+L Power_Protection:USBLC6-2SC6 U?
+U 1 1 6093F37C
+P 7800 3800
+AR Path="/6093F37C" Ref="U?"  Part="1" 
+AR Path="/60815FFC/6093F37C" Ref="U5"  Part="1" 
+F 0 "U5" V 7500 4400 50  0000 C CNN
+F 1 "USBLC6-2SC6" V 7600 4400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7800 3300 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 8000 4150 50  0001 C CNN
+	1    7800 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 3400 7700 3300
+Wire Wire Line
+	7700 3300 7600 3300
+Wire Wire Line
+	7900 3400 7900 3300
+Wire Wire Line
+	7900 3300 8000 3300
+$Comp
+L Device:R_Small R?
+U 1 1 6093F386
+P 8100 3300
+AR Path="/6093F386" Ref="R?"  Part="1" 
+AR Path="/60815FFC/6093F386" Ref="R12"  Part="1" 
+F 0 "R12" V 7904 3300 50  0000 C CNN
+F 1 "22" V 7995 3300 50  0000 C CNN
+F 2 "" H 8100 3300 50  0001 C CNN
+F 3 "~" H 8100 3300 50  0001 C CNN
+	1    8100 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 3300 8300 3300
+Wire Wire Line
+	7900 4200 7900 4300
+Wire Wire Line
+	7900 4300 8000 4300
+$Comp
+L Device:R_Small R?
+U 1 1 6093F38F
+P 8100 4300
+AR Path="/6093F38F" Ref="R?"  Part="1" 
+AR Path="/60815FFC/6093F38F" Ref="R13"  Part="1" 
+F 0 "R13" V 8200 4300 50  0000 C CNN
+F 1 "22" V 8300 4300 50  0000 C CNN
+F 2 "" H 8100 4300 50  0001 C CNN
+F 3 "~" H 8100 4300 50  0001 C CNN
+	1    8100 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 4300 8300 4300
+Wire Wire Line
+	7700 4200 7700 4300
+Wire Wire Line
+	7700 4300 7600 4300
+Wire Wire Line
+	8200 3800 8950 3800
+Wire Wire Line
+	8950 3900 8950 3800
+Wire Wire Line
+	8950 3800 9150 3800
+Connection ~ 8950 3800
+Wire Notes Line
+	7050 4650 7050 2850
+Wire Notes Line
+	7050 2850 9400 2850
+Wire Notes Line
+	9400 2850 9400 4650
+Wire Notes Line
+	9400 4650 7050 4650
+Text Notes 7100 3000 0    50   ~ 0
+USB data ESD protection
+$Comp
+L power:GND #PWR?
+U 1 1 6093F3A1
+P 7300 3900
+AR Path="/6093F3A1" Ref="#PWR?"  Part="1" 
+AR Path="/60815FFC/6093F3A1" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 7300 3650 50  0001 C CNN
+F 1 "GND" H 7305 3727 50  0000 C CNN
+F 2 "" H 7300 3900 50  0001 C CNN
+F 3 "" H 7300 3900 50  0001 C CNN
+	1    7300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3900 7300 3800
+Wire Wire Line
+	7300 3800 7400 3800
+Wire Wire Line
+	9150 3800 9150 3700
+$Comp
+L power:+5V #PWR?
+U 1 1 6093F3AA
+P 9150 3700
+AR Path="/6093F3AA" Ref="#PWR?"  Part="1" 
+AR Path="/60815FFC/6093F3AA" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 9150 3550 50  0001 C CNN
+F 1 "+5V" H 9165 3873 50  0000 C CNN
+F 2 "" H 9150 3700 50  0001 C CNN
+F 3 "" H 9150 3700 50  0001 C CNN
+	1    9150 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 2500 2950 0    50   Input ~ 0
+VBUS
+Text HLabel 7600 3300 0    50   Input ~ 0
+IN_USB_D+
+Text HLabel 7600 4300 0    50   Input ~ 0
+IN_USB_D-
+Text HLabel 8300 3300 2    50   Output ~ 0
+USB_D+
+Text HLabel 8300 4300 2    50   Output ~ 0
+USB_D-
+Text HLabel 3850 4350 0    50   Input ~ 0
+CC1
+Text HLabel 3850 4450 0    50   Input ~ 0
+CC2
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 6093AEEC
+P 3350 3350
+AR Path="/6093AEEC" Ref="D?"  Part="1" 
+AR Path="/60815FFC/6093AEEC" Ref="D57"  Part="1" 
+F 0 "D57" H 3350 3143 50  0000 C CNN
+F 1 "D_Schottky_Small" H 3350 3234 50  0000 C CNN
+F 2 "" V 3350 3350 50  0001 C CNN
+F 3 "~" V 3350 3350 50  0001 C CNN
+	1    3350 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L tfk:STL11N3LLH6 Q?
+U 1 1 603EB8D8
+P 4400 3050
+F 0 "Q?" V 4742 3050 50  0000 C CNN
+F 1 "STL11N3LLH6" V 4651 3050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 4600 2975 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK9M53-60E.pdf" V 4400 3050 50  0001 L CNN
+	1    4400 3050
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

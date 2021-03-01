@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STL11N3LLH6
+D 17A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 46mOhm Ron, 6nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://www.st.com/resource/en/datasheet/stl11n3llh6.pdf
+$ENDCMP
+#
+$CMP TCCP01-M12
+D USB-C overvoltage protection for VBUS and CC lines
+K usb-c, overvoltage, esd, vbus, cc, protection
+F https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf
+$ENDCMP
+#
+#End Doc Library
