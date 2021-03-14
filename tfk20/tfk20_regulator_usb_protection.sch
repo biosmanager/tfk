@@ -144,19 +144,6 @@ F 3 "~" H 2750 2950 50  0001 C CNN
 $EndComp
 Connection ~ 4900 2950
 $Comp
-L tfk:TCCP01-M12 U?
-U 1 1 6093AEE6
-P 4400 4150
-AR Path="/6093AEE6" Ref="U?"  Part="1" 
-AR Path="/60815FFC/6093AEE6" Ref="U501"  Part="1" 
-F 0 "U501" H 4850 3400 50  0000 C CNN
-F 1 "TCCP01-M12" H 4850 3300 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm" H 4400 2800 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf" H 4250 4450 50  0001 C CNN
-	1    4400 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 6093AEF2
 P 3650 3500
@@ -485,17 +472,6 @@ F 3 "~" V 3350 3350 50  0001 C CNN
 	1    3350 3350
 	-1   0    0    1   
 $EndComp
-$Comp
-L tfk:STL11N3LLH6 Q501
-U 1 1 603EB8D8
-P 4400 3050
-F 0 "Q501" V 4742 3050 50  0000 C CNN
-F 1 "STL11N3LLH6" V 4651 3050 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 4600 2975 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK9M53-60E.pdf" V 4400 3050 50  0001 L CNN
-	1    4400 3050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3050 2950 3050 3350
 Connection ~ 3050 2950
@@ -517,4 +493,26 @@ Wire Wire Line
 	3450 3350 3650 3350
 Wire Wire Line
 	3650 3350 4300 3350
+$Comp
+L tfk:TCCP01-M12 U501
+U 1 1 60432DBC
+P 4400 4150
+F 0 "U501" H 4800 3450 50  0000 C CNN
+F 1 "TCCP01-M12" H 4800 3350 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-12-1EP_3x3mm_P0.51mm_EP1.45x1.45mm" H 4400 3050 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf" H 4350 4300 50  0001 C CNN
+	1    4400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L tfk:STL11N3LLH6 Q501
+U 1 1 60434876
+P 4400 3050
+F 0 "Q501" V 4742 3050 50  0000 C CNN
+F 1 "STL11N3LLH6" V 4651 3050 50  0000 C CNN
+F 2 "STL11N3LLH6:STL11N3LLH6" H 4600 2975 50  0001 L CIN
+F 3 "https://www.st.com/resource/en/datasheet/stl11n3llh6.pdf" V 4400 3050 50  0001 L CNN
+	1    4400 3050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
