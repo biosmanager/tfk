@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name STL11N3LLH6)(type KiCad)(uri ${KIPRJMOD}/../libraries/STL11N3LLH6/STL11N3LLH6.pretty)(options "")(descr ""))
+)
