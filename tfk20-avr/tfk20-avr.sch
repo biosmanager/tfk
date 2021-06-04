@@ -4,20 +4,20 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "tfk20"
+Title "tfk20 AVR"
 Date "2021-02-02"
 Rev "0"
 Comp "biosmanager"
 Comment1 ""
 Comment2 "Per-key RGB and RGB backlight"
-Comment3 "MX hot-swap, USB-C, STM32 MCU"
+Comment3 "MX hot-swap, USB-C, AVR MCU"
 Comment4 "QMK compatible numpad"
 $EndDescr
 $Sheet
 S 3700 4150 550  1200
 U 601C3315
 F0 "tfk20 Key Matrix" 50
-F1 "tfk20_key_matrix.sch" 50
+F1 "tfk20-avr_key_matrix.sch" 50
 F2 "COL_0" I L 3700 4250 50 
 F3 "COL_1" I L 3700 4350 50 
 F4 "COL_2" I L 3700 4450 50 
@@ -163,7 +163,7 @@ $Sheet
 S 5350 5050 600  200 
 U 602C340B
 F0 "tfk20 RGB Light" 50
-F1 "tfk20_rgb_light.sch" 50
+F1 "tfk20-avr_rgb_light.sch" 50
 F2 "RGB_LIGHT" I L 5350 5150 50 
 $EndSheet
 Wire Wire Line
@@ -178,7 +178,7 @@ $Sheet
 S 5350 4150 600  300 
 U 601F4644
 F0 "tfk20 RGB Matrix" 50
-F1 "tfk20_rgb_matrix.sch" 50
+F1 "tfk20-avr_rgb_matrix.sch" 50
 F2 "SDA" I L 5350 4250 50 
 F3 "SCL" I L 5350 4350 50 
 $EndSheet
