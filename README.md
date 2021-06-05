@@ -15,8 +15,8 @@ This is a work in progress collection of open-source high-end keyboard PCBs.
 
 ## Keyboards
 
-| Name  | Size | Description             | MCU |
-| ----- | ---- | ----------------------- |-----|
-| tfk20 | 20%  | Numpad                  | STM32F072 |
-| tfk20-avr | 20% | Numpad               | ATMEGA32U4 |
-| tfk75 | 75%  | More compact than a TKL | STM32F303 |
+|Status | Name  | Size | Description | MCU | Compatible cases (intended) |
+|-------| ----- | ---- | ------------|-----|------------------|
+| <span style="color: green">Active</span> | tfk20-avr | 20% | Numpad                   | ATMEGA32U4 | [KPRepublic Cospad cases](https://kprepublic.com/collections/cospad-xd24) |
+| <span style="color: red">On hold</span>  | tfk20     | 20%  | Numpad                  | STM32F072  | [KPRepublic Cospad cases](https://kprepublic.com/collections/cospad-xd24) |
+| <span style="color: red">On hold</span>  | tfk75     | 75%  | More compact than a TKL | STM32F303  | [KPRepublic XD84 cases](https://kprepublic.com/collections/xd84) |
