@@ -83,12 +83,12 @@ COL_2
 Text Label 3450 4550 2    50   ~ 0
 COL_3
 $Comp
-L Device:C_Small C5
+L Device:C_Small C6
 U 1 1 6026C0EC
 P 1500 2950
-F 0 "C5" H 1592 2996 50  0000 L CNN
+F 0 "C6" H 1592 2996 50  0000 L CNN
 F 1 "4.7n" H 1592 2905 50  0000 L CNN
-F 2 "" H 1500 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1500 2950 50  0001 C CNN
 F 3 "~" H 1500 2950 50  0001 C CNN
 	1    1500 2950
 	1    0    0    -1  
@@ -112,7 +112,7 @@ U 1 1 60276E87
 P 1150 2950
 F 0 "R4" H 1209 2996 50  0000 L CNN
 F 1 "1M" H 1209 2905 50  0000 L CNN
-F 2 "" H 1150 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 1150 2950 50  0001 C CNN
 F 3 "~" H 1150 2950 50  0001 C CNN
 	1    1150 2950
 	1    0    0    -1  
@@ -172,8 +172,8 @@ Text Label 5100 5150 2    50   ~ 0
 RGB_LIGHT
 Text Notes 2700 2200 0    50   ~ 0
 Internal MCU pull-up \nfor full speed.
-Text Notes 7150 900  0    50   ~ 0
-Decoupling capacitors for MCU\nImportant: Must be close to MCU on PCB
+Text Notes 7150 850  0    50   ~ 0
+Decoupling capacitors for MCU
 $Sheet
 S 5200 4150 600  300 
 U 601F4644
@@ -288,8 +288,8 @@ P 1350 6150
 AR Path="/60989164" Ref="D3"  Part="1" 
 AR Path="/60815FFC/60989164" Ref="D?"  Part="1" 
 F 0 "D3" H 1350 6050 50  0000 C CNN
-F 1 "D_Small" H 1350 6034 50  0001 C CNN
-F 2 "" V 1350 6150 50  0001 C CNN
+F 1 "Case ESD" H 1350 6034 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 1350 6150 50  0001 C CNN
 F 3 "~" V 1350 6150 50  0001 C CNN
 	1    1350 6150
 	-1   0    0    1   
@@ -311,20 +311,20 @@ AR Path="/6098916F" Ref="R8"  Part="1"
 AR Path="/60815FFC/6098916F" Ref="R?"  Part="1" 
 F 0 "R8" H 1609 6396 50  0000 L CNN
 F 1 "1M" H 1609 6305 50  0000 L CNN
-F 2 "" H 1550 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 1550 6350 50  0001 C CNN
 F 3 "~" H 1550 6350 50  0001 C CNN
 	1    1550 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
+L Device:C_Small C8
 U 1 1 60989175
 P 1900 6350
-AR Path="/60989175" Ref="C7"  Part="1" 
+AR Path="/60989175" Ref="C8"  Part="1" 
 AR Path="/60815FFC/60989175" Ref="C?"  Part="1" 
-F 0 "C7" H 1992 6396 50  0000 L CNN
+F 0 "C8" H 1992 6396 50  0000 L CNN
 F 1 "4.7n" H 1992 6305 50  0000 L CNN
-F 2 "" H 1900 6350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1900 6350 50  0001 C CNN
 F 3 "~" H 1900 6350 50  0001 C CNN
 	1    1900 6350
 	1    0    0    -1  
@@ -366,7 +366,7 @@ Connection ~ 1900 6550
 Text Label 2250 6550 0    50   ~ 0
 SHIELD
 Text Notes 1600 6900 0    50   ~ 0
-Keep ESD away from \nGND and ICs, so \nshunt to USB shield.
+Shunt ESD away from \nGND and ICs to USB \nshield.
 Wire Wire Line
 	4350 1050 4350 1000
 $Comp
@@ -429,7 +429,7 @@ AR Path="/60C25792" Ref="F1"  Part="1"
 AR Path="/60815FFC/60C25792" Ref="F?"  Part="1" 
 F 0 "F1" V 3745 1050 50  0000 C CNN
 F 1 "500mA" V 3836 1050 50  0000 C CNN
-F 2 "" H 4000 850 50  0001 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4000 850 50  0001 L CNN
 F 3 "~" H 3950 1050 50  0001 C CNN
 	1    3950 1050
 	0    1    1    0   
@@ -444,7 +444,7 @@ AR Path="/60C25799" Ref="R6"  Part="1"
 AR Path="/60815FFC/60C25799" Ref="R?"  Part="1" 
 F 0 "R6" V 8154 3850 50  0000 C CNN
 F 1 "22" V 8245 3850 50  0000 C CNN
-F 2 "" H 8350 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 8350 3850 50  0001 C CNN
 F 3 "~" H 8350 3850 50  0001 C CNN
 	1    8350 3850
 	0    -1   -1   0   
@@ -457,7 +457,7 @@ AR Path="/60C257A0" Ref="R5"  Part="1"
 AR Path="/60815FFC/60C257A0" Ref="R?"  Part="1" 
 F 0 "R5" V 8450 3750 50  0000 C CNN
 F 1 "22" V 8550 3750 50  0000 C CNN
-F 2 "" H 8350 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 8350 3750 50  0001 C CNN
 F 3 "~" H 8350 3750 50  0001 C CNN
 	1    8350 3750
 	0    -1   -1   0   
@@ -527,7 +527,7 @@ AR Path="/60C257CE" Ref="R2"  Part="1"
 AR Path="/60815FFC/60C257CE" Ref="R?"  Part="1" 
 F 0 "R2" V 3104 1450 50  0000 C CNN
 F 1 "5.1k" V 3195 1450 50  0000 C CNN
-F 2 "" H 3300 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 3300 1450 50  0001 C CNN
 F 3 "~" H 3300 1450 50  0001 C CNN
 	1    3300 1450
 	0    1    1    0   
@@ -540,7 +540,7 @@ AR Path="/60C257D4" Ref="R3"  Part="1"
 AR Path="/60815FFC/60C257D4" Ref="R?"  Part="1" 
 F 0 "R3" V 3104 1550 50  0000 C CNN
 F 1 "5.1k" V 3195 1550 50  0000 C CNN
-F 2 "" H 3300 1550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 3300 1550 50  0001 C CNN
 F 3 "~" H 3300 1550 50  0001 C CNN
 	1    3300 1550
 	0    -1   -1   0   
@@ -616,7 +616,7 @@ U 1 1 60E1E7AF
 P 10550 4850
 F 0 "R7" V 10354 4850 50  0000 C CNN
 F 1 "10k" V 10445 4850 50  0000 C CNN
-F 2 "" H 10550 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 10550 4850 50  0001 C CNN
 F 3 "~" H 10550 4850 50  0001 C CNN
 	1    10550 4850
 	0    1    1    0   
@@ -639,12 +639,12 @@ F 3 "" H 10750 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L Device:C_Small C7
 U 1 1 60E2DC6A
 P 8550 4250
-F 0 "C6" H 8642 4296 50  0000 L CNN
+F 0 "C7" H 8642 4296 50  0000 L CNN
 F 1 "1u" H 8642 4205 50  0000 L CNN
-F 2 "" H 8550 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8550 4250 50  0001 C CNN
 F 3 "~" H 8550 4250 50  0001 C CNN
 	1    8550 4250
 	1    0    0    -1  
@@ -670,20 +670,20 @@ U 1 1 60E788EF
 P 7300 1350
 F 0 "C1" H 7392 1396 50  0000 L CNN
 F 1 "0.1u" H 7392 1305 50  0000 L CNN
-F 2 "" H 7300 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7300 1350 50  0001 C CNN
 F 3 "~" H 7300 1350 50  0001 C CNN
 	1    7300 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C4
+L Device:C_Small C5
 U 1 1 60E7A085
-P 8800 1350
-F 0 "C4" H 8892 1396 50  0000 L CNN
-F 1 "10u" H 8892 1305 50  0000 L CNN
-F 2 "" H 8800 1350 50  0001 C CNN
-F 3 "~" H 8800 1350 50  0001 C CNN
-	1    8800 1350
+P 9300 1350
+F 0 "C5" H 9392 1396 50  0000 L CNN
+F 1 "10u" H 9392 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9300 1350 50  0001 C CNN
+F 3 "~" H 9300 1350 50  0001 C CNN
+	1    9300 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -703,7 +703,7 @@ U 1 1 60EA06CD
 P 7800 1350
 F 0 "C2" H 7892 1396 50  0000 L CNN
 F 1 "0.1u" H 7892 1305 50  0000 L CNN
-F 2 "" H 7800 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7800 1350 50  0001 C CNN
 F 3 "~" H 7800 1350 50  0001 C CNN
 	1    7800 1350
 	1    0    0    -1  
@@ -714,7 +714,7 @@ U 1 1 60EABF19
 P 8300 1350
 F 0 "C3" H 8392 1396 50  0000 L CNN
 F 1 "0.1u" H 8392 1305 50  0000 L CNN
-F 2 "" H 8300 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8300 1350 50  0001 C CNN
 F 3 "~" H 8300 1350 50  0001 C CNN
 	1    8300 1350
 	1    0    0    -1  
@@ -773,7 +773,7 @@ U 1 1 60F522E3
 P 6050 1200
 F 0 "R1" H 6109 1246 50  0000 L CNN
 F 1 "10k" H 6109 1155 50  0000 L CNN
-F 2 "" H 6050 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 6050 1200 50  0001 C CNN
 F 3 "~" H 6050 1200 50  0001 C CNN
 	1    6050 1200
 	1    0    0    -1  
@@ -862,29 +862,27 @@ Connection ~ 7800 1500
 Wire Wire Line
 	7800 1500 8300 1500
 Wire Wire Line
-	8300 1200 8800 1200
+	8800 1200 9300 1200
 Wire Wire Line
-	8800 1200 8800 1250
-Connection ~ 8300 1200
+	9300 1200 9300 1250
 Wire Wire Line
-	8800 1450 8800 1500
+	9300 1450 9300 1500
 Wire Wire Line
-	8800 1500 8300 1500
-Connection ~ 8300 1500
+	9300 1500 8800 1500
 Wire Wire Line
-	8800 1500 8800 1550
-Connection ~ 8800 1500
+	9300 1500 9300 1550
+Connection ~ 9300 1500
 $Comp
 L power:GND #PWR08
 U 1 1 61059BD9
-P 8800 1550
+P 9300 1550
 AR Path="/61059BD9" Ref="#PWR08"  Part="1" 
 AR Path="/60815FFC/61059BD9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR08" H 8800 1300 50  0001 C CNN
-F 1 "GND" H 8805 1377 50  0000 C CNN
-F 2 "" H 8800 1550 50  0001 C CNN
-F 3 "" H 8800 1550 50  0001 C CNN
-	1    8800 1550
+F 0 "#PWR08" H 9300 1300 50  0001 C CNN
+F 1 "GND" H 9305 1377 50  0000 C CNN
+F 2 "" H 9300 1550 50  0001 C CNN
+F 3 "" H 9300 1550 50  0001 C CNN
+	1    9300 1550
 	1    0    0    -1  
 $EndComp
 Text Notes 7150 2000 0    50   ~ 0
@@ -921,7 +919,7 @@ U 1 1 611F640E
 P 4600 6850
 F 0 "Y1" H 4750 6700 50  0000 L CNN
 F 1 "16MHz" H 4750 6600 50  0000 L CNN
-F 2 "" H 4600 6850 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 4600 6850 50  0001 C CNN
 F 3 "~" H 4600 6850 50  0001 C CNN
 	1    4600 6850
 	1    0    0    -1  
@@ -929,12 +927,12 @@ $EndComp
 Wire Wire Line
 	4600 7050 4600 7250
 $Comp
-L Device:C_Small C9
+L Device:C_Small C10
 U 1 1 611FB100
 P 5150 7050
-F 0 "C9" H 5242 7096 50  0000 L CNN
+F 0 "C10" H 5242 7096 50  0000 L CNN
 F 1 "22p" H 5242 7005 50  0000 L CNN
-F 2 "" H 5150 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5150 7050 50  0001 C CNN
 F 3 "~" H 5150 7050 50  0001 C CNN
 	1    5150 7050
 	1    0    0    -1  
@@ -955,12 +953,12 @@ Wire Wire Line
 	4050 6850 4450 6850
 Connection ~ 4600 7250
 $Comp
-L Device:C_Small C8
+L Device:C_Small C9
 U 1 1 6120D60B
 P 4050 7050
-F 0 "C8" H 3950 7000 50  0000 R CNN
+F 0 "C9" H 3950 7000 50  0000 R CNN
 F 1 "22p" H 3950 7100 50  0000 R CNN
-F 2 "" H 4050 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4050 7050 50  0001 C CNN
 F 3 "~" H 4050 7050 50  0001 C CNN
 	1    4050 7050
 	-1   0    0    1   
@@ -1089,7 +1087,7 @@ U 1 1 60BED50D
 P 3600 1250
 F 0 "D1" V 3554 1320 50  0000 L CNN
 F 1 "5.5V" V 3645 1320 50  0000 L CNN
-F 2 "" V 3600 1250 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 1250 50  0001 C CNN
 F 3 "~" V 3600 1250 50  0001 C CNN
 	1    3600 1250
 	0    1    1    0   
@@ -1232,4 +1230,27 @@ Text Notes 4850 850  0    50   ~ 0
 Reset
 Text Notes 4850 2100 0    50   ~ 0
 ISP header
+$Comp
+L Device:C_Small C4
+U 1 1 60CE1DC9
+P 8800 1350
+F 0 "C4" H 8892 1396 50  0000 L CNN
+F 1 "0.1u" H 8892 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8800 1350 50  0001 C CNN
+F 3 "~" H 8800 1350 50  0001 C CNN
+	1    8800 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1200 8800 1250
+Wire Wire Line
+	8300 1200 8800 1200
+Wire Wire Line
+	8800 1500 8800 1450
+Wire Wire Line
+	8300 1500 8800 1500
+Connection ~ 8300 1200
+Connection ~ 8300 1500
+Connection ~ 8800 1200
+Connection ~ 8800 1500
 $EndSCHEMATC
