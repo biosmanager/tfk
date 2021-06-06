@@ -355,7 +355,7 @@ AR Path="/60989184" Ref="H1"  Part="1"
 AR Path="/60815FFC/60989184" Ref="H?"  Part="1" 
 F 0 "H1" V 800 6200 50  0000 C CNN
 F 1 "Case" V 700 6200 50  0000 C CNN
-F 2 "" H 950 6150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 950 6150 50  0001 C CNN
 F 3 "~" H 950 6150 50  0001 C CNN
 	1    950  6150
 	0    -1   -1   0   
@@ -744,7 +744,7 @@ U 1 1 60F257D5
 P 5600 1450
 F 0 "SW1" H 5600 1735 50  0000 C CNN
 F 1 "Reset" H 5600 1644 50  0000 C CNN
-F 2 "" H 5600 1650 50  0001 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 5600 1650 50  0001 C CNN
 F 3 "~" H 5600 1650 50  0001 C CNN
 	1    5600 1450
 	1    0    0    -1  
@@ -1108,7 +1108,7 @@ U 1 1 60BC9C45
 P 900 6550
 F 0 "H2" H 800 6400 50  0000 L CNN
 F 1 "MountingHole" H 1000 6505 50  0001 L CNN
-F 2 "" H 900 6550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 900 6550 50  0001 C CNN
 F 3 "~" H 900 6550 50  0001 C CNN
 	1    900  6550
 	1    0    0    -1  
@@ -1119,7 +1119,7 @@ U 1 1 60BCA1EE
 P 900 6950
 F 0 "H3" H 800 6800 50  0000 L CNN
 F 1 "MountingHole" H 1000 6905 50  0001 L CNN
-F 2 "" H 900 6950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 900 6950 50  0001 C CNN
 F 3 "~" H 900 6950 50  0001 C CNN
 	1    900  6950
 	1    0    0    -1  
@@ -1130,7 +1130,7 @@ U 1 1 60BCA526
 P 900 7350
 F 0 "H4" H 800 7200 50  0000 L CNN
 F 1 "MountingHole" H 1000 7305 50  0001 L CNN
-F 2 "" H 900 7350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 900 7350 50  0001 C CNN
 F 3 "~" H 900 7350 50  0001 C CNN
 	1    900  7350
 	1    0    0    -1  
@@ -1147,7 +1147,7 @@ U 1 1 60BD24F4
 P 5850 2800
 F 0 "J2" H 5521 2896 50  0000 R CNN
 F 1 "AVR-ISP-6" H 5521 2805 50  0000 R CNN
-F 2 "" V 5600 2850 50  0001 C CNN
+F 2 "random-keyboard-parts:Reset_Pretty-Mask" V 5600 2850 50  0001 C CNN
 F 3 " ~" H 4575 2250 50  0001 C CNN
 	1    5850 2800
 	1    0    0    -1  
