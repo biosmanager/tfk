@@ -112,7 +112,7 @@ U 1 1 60276E87
 P 1150 2950
 F 0 "R4" H 1209 2996 50  0000 L CNN
 F 1 "1M" H 1209 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 1150 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1150 2950 50  0001 C CNN
 F 3 "~" H 1150 2950 50  0001 C CNN
 	1    1150 2950
 	1    0    0    -1  
@@ -311,7 +311,7 @@ AR Path="/6098916F" Ref="R8"  Part="1"
 AR Path="/60815FFC/6098916F" Ref="R?"  Part="1" 
 F 0 "R8" H 1609 6396 50  0000 L CNN
 F 1 "1M" H 1609 6305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 1550 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1550 6350 50  0001 C CNN
 F 3 "~" H 1550 6350 50  0001 C CNN
 	1    1550 6350
 	1    0    0    -1  
@@ -444,7 +444,7 @@ AR Path="/60C25799" Ref="R6"  Part="1"
 AR Path="/60815FFC/60C25799" Ref="R?"  Part="1" 
 F 0 "R6" V 8154 3850 50  0000 C CNN
 F 1 "22" V 8245 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 8350 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8350 3850 50  0001 C CNN
 F 3 "~" H 8350 3850 50  0001 C CNN
 	1    8350 3850
 	0    -1   -1   0   
@@ -457,7 +457,7 @@ AR Path="/60C257A0" Ref="R5"  Part="1"
 AR Path="/60815FFC/60C257A0" Ref="R?"  Part="1" 
 F 0 "R5" V 8450 3750 50  0000 C CNN
 F 1 "22" V 8550 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 8350 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8350 3750 50  0001 C CNN
 F 3 "~" H 8350 3750 50  0001 C CNN
 	1    8350 3750
 	0    -1   -1   0   
@@ -527,7 +527,7 @@ AR Path="/60C257CE" Ref="R2"  Part="1"
 AR Path="/60815FFC/60C257CE" Ref="R?"  Part="1" 
 F 0 "R2" V 3104 1450 50  0000 C CNN
 F 1 "5.1k" V 3195 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 3300 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3300 1450 50  0001 C CNN
 F 3 "~" H 3300 1450 50  0001 C CNN
 	1    3300 1450
 	0    1    1    0   
@@ -540,7 +540,7 @@ AR Path="/60C257D4" Ref="R3"  Part="1"
 AR Path="/60815FFC/60C257D4" Ref="R?"  Part="1" 
 F 0 "R3" V 3104 1550 50  0000 C CNN
 F 1 "5.1k" V 3195 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 3300 1550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3300 1550 50  0001 C CNN
 F 3 "~" H 3300 1550 50  0001 C CNN
 	1    3300 1550
 	0    -1   -1   0   
@@ -616,7 +616,7 @@ U 1 1 60E1E7AF
 P 10550 4850
 F 0 "R7" V 10354 4850 50  0000 C CNN
 F 1 "10k" V 10445 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 10550 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 10550 4850 50  0001 C CNN
 F 3 "~" H 10550 4850 50  0001 C CNN
 	1    10550 4850
 	0    1    1    0   
@@ -773,7 +773,7 @@ U 1 1 60F522E3
 P 6050 1200
 F 0 "R1" H 6109 1246 50  0000 L CNN
 F 1 "10k" H 6109 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 6050 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6050 1200 50  0001 C CNN
 F 3 "~" H 6050 1200 50  0001 C CNN
 	1    6050 1200
 	1    0    0    -1  
