@@ -35,7 +35,7 @@
 
   (setup
     (last_trace_width 0.25)
-    (trace_clearance 0.2)
+    (trace_clearance 0.15)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
@@ -200,7 +200,7 @@
   (net 108 "Net-(U2-Pad1)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
+    (clearance 0.15)
     (trace_width 0.25)
     (via_dia 0.8)
     (via_drill 0.4)
@@ -315,7 +315,7 @@
   )
 
   (net_class Power ""
-    (clearance 0.2)
+    (clearance 0.14)
     (trace_width 0.381)
     (via_dia 0.8)
     (via_drill 0.4)
@@ -3565,7 +3565,7 @@
   )
 
   (module LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer B.Cu) (tedit 5AA4B285) (tstamp 60BDAE29)
-    (at 125.4125 152.4)
+    (at 125.4125 152.654)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /602C340B/60DF2241)
@@ -3611,7 +3611,7 @@
   )
 
   (module LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer B.Cu) (tedit 5AA4B285) (tstamp 60BDAE12)
-    (at 88.9 152.4)
+    (at 88.9 152.654)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /602C340B/60DF221E)
@@ -3657,7 +3657,7 @@
   )
 
   (module LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer B.Cu) (tedit 5AA4B285) (tstamp 60BE10B5)
-    (at 125.4125 114.3)
+    (at 125.4125 114.554)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /602C340B/601B5D69)
@@ -3703,7 +3703,7 @@
   )
 
   (module LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer B.Cu) (tedit 5AA4B285) (tstamp 60BDADE4)
-    (at 88.9 114.3)
+    (at 88.9 114.427)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /602C340B/601B5D46)
@@ -3973,7 +3973,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60BDAD54)
-    (at 123.03125 147.6375 90)
+    (at 123.03125 147.32 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /601C3315/60BBA9EF)
@@ -4061,7 +4061,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60BDAD22)
-    (at 84.93125 147.6375 90)
+    (at 84.93125 147.32 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /601C3315/60BB98FA)
@@ -4281,7 +4281,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60BDACA5)
-    (at 123.03125 109.5375 90)
+    (at 123.03125 109.22 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /601C3315/60BB6E36)
@@ -4369,7 +4369,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60BDAC73)
-    (at 84.93125 109.5375 90)
+    (at 84.93125 109.22 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /601C3315/60BB5F99)
