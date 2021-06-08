@@ -156,17 +156,6 @@ F 3 "" H 4025 4775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX17
-U 1 1 6031D47E
-P 5400 4800
-F 0 "MX17" H 5433 5023 60  0000 C CNN
-F 1 "MX-NoLED" H 5433 4949 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4775 4775 60  0001 C CNN
-F 3 "" H 4775 4775 60  0001 C CNN
-	1    5400 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX18
 U 1 1 6031D490
 P 6150 4800
@@ -780,6 +769,17 @@ F 1 "Stabilizer" H 6700 3150 50  0000 L CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u" H 6850 3300 50  0001 C CNN
 F 3 "~" H 6850 3300 50  0001 C CNN
 	1    6850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 6031D47E
+P 5400 4800
+F 0 "MX17" H 5433 5023 60  0000 C CNN
+F 1 "MX-NoLED" H 5433 4949 20  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4775 4775 60  0001 C CNN
+F 3 "" H 4775 4775 60  0001 C CNN
+	1    5400 4800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
