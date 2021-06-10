@@ -1078,30 +1078,9 @@ RGB_LIGHT
 Wire Wire Line
 	10050 3650 10150 3650
 Wire Wire Line
-	2800 1050 2800 1250
+	3000 1050 3000 1250
 Wire Wire Line
-	2800 1250 2400 1250
-$Comp
-L Device:D_Zener_Small D1
-U 1 1 60BED50D
-P 3600 1250
-F 0 "D1" V 3554 1320 50  0000 L CNN
-F 1 "5.5V" V 3645 1320 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" V 3600 1250 50  0001 C CNN
-F 3 "~" V 3600 1250 50  0001 C CNN
-	1    3600 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 1350 3600 1450
-Connection ~ 3600 1450
-Wire Wire Line
-	2800 1050 3600 1050
-Wire Wire Line
-	3600 1150 3600 1050
-Connection ~ 3600 1050
-Wire Wire Line
-	3600 1050 3850 1050
+	3000 1250 2400 1250
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60BC9C45
@@ -1253,4 +1232,59 @@ Connection ~ 8300 1200
 Connection ~ 8300 1500
 Connection ~ 8800 1200
 Connection ~ 8800 1500
+$Comp
+L power:VBUS #PWR0101
+U 1 1 60C26DAA
+P 3000 1000
+F 0 "#PWR0101" H 3000 850 50  0001 C CNN
+F 1 "VBUS" H 3015 1173 50  0000 C CNN
+F 2 "" H 3000 1000 50  0001 C CNN
+F 3 "" H 3000 1000 50  0001 C CNN
+	1    3000 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1000 3000 1050
+Connection ~ 3000 1050
+Text Label 8850 3750 2    39   ~ 0
+MCU_USB_D+
+Text Label 8850 3850 2    39   ~ 0
+MCU_USB_D-
+$Comp
+L power:GND #PWR0102
+U 1 1 60C2F48B
+P 5150 7350
+AR Path="/60C2F48B" Ref="#PWR0102"  Part="1" 
+AR Path="/60815FFC/60C2F48B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0102" H 5150 7100 50  0001 C CNN
+F 1 "GND" H 5155 7177 50  0000 C CNN
+F 2 "" H 5150 7350 50  0001 C CNN
+F 3 "" H 5150 7350 50  0001 C CNN
+	1    5150 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 7250 5150 7350
+Connection ~ 5150 7250
+Connection ~ 3600 1450
+Wire Wire Line
+	3000 1050 3600 1050
+Wire Wire Line
+	3600 1050 3850 1050
+Connection ~ 3600 1050
+Wire Wire Line
+	3600 1350 3600 1450
+Wire Wire Line
+	3600 1150 3600 1050
+$Comp
+L Device:D_Zener_Small D1
+U 1 1 60BED50D
+P 3600 1250
+F 0 "D1" V 3554 1320 50  0000 L CNN
+F 1 "5.5V" V 3645 1320 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 1250 50  0001 C CNN
+F 3 "~" V 3600 1250 50  0001 C CNN
+	1    3600 1250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
