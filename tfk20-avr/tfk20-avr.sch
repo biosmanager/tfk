@@ -1014,29 +1014,29 @@ Wire Wire Line
 	10150 5350 10050 5350
 Wire Wire Line
 	10150 5550 10050 5550
-Text Label 10150 5150 0    50   ~ 0
+Text Label 10150 5650 0    50   ~ 0
 ROW_0
-Text Label 10150 5250 0    50   ~ 0
-ROW_1
-Text Label 10150 5350 0    50   ~ 0
-ROW_2
 Text Label 10150 5550 0    50   ~ 0
+ROW_1
+Text Label 10150 5450 0    50   ~ 0
+ROW_2
+Text Label 10150 5250 0    50   ~ 0
 ROW_4
 Wire Wire Line
 	10050 5650 10150 5650
-Text Label 10150 5650 0    50   ~ 0
+Text Label 10150 5150 0    50   ~ 0
 ROW_5
-Text Label 10150 5450 0    50   ~ 0
+Text Label 10150 5350 0    50   ~ 0
 ROW_3
 Wire Wire Line
 	10050 5450 10150 5450
-Text Label 10150 3150 0    50   ~ 0
-COL_0
 Text Label 10150 3250 0    50   ~ 0
+COL_0
+Text Label 10150 3150 0    50   ~ 0
 COL_1
-Text Label 10150 3350 0    50   ~ 0
-COL_2
 Text Label 10150 4650 0    50   ~ 0
+COL_2
+Text Label 10150 3350 0    50   ~ 0
 COL_3
 Wire Wire Line
 	10150 4650 10050 4650
