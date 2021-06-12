@@ -4,4 +4,5 @@
   (lib (name Mounting_Keyboard_Stabilizer)(type KiCad)(uri ${KIPRJMOD}/../libraries/keyswitch-kicad-library/modules/Mounting_Keyboard_Stabilizer.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/../libraries/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/../libraries/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
+  (lib (name biosmanager)(type KiCad)(uri ${KIPRJMOD}/../libraries/biosmanager.pretty)(options "")(descr ""))
 )
