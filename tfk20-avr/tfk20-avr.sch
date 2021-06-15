@@ -1030,13 +1030,13 @@ Text Label 10150 5350 0    50   ~ 0
 ROW_3
 Wire Wire Line
 	10050 5450 10150 5450
-Text Label 10150 3250 0    50   ~ 0
+Text Label 10150 3650 0    50   ~ 0
 COL_0
-Text Label 10150 3150 0    50   ~ 0
+Text Label 10150 3250 0    50   ~ 0
 COL_1
-Text Label 10150 4650 0    50   ~ 0
+Text Label 10150 3150 0    50   ~ 0
 COL_2
-Text Label 10150 3350 0    50   ~ 0
+Text Label 10150 4650 0    50   ~ 0
 COL_3
 Wire Wire Line
 	10150 4650 10050 4650
@@ -1073,7 +1073,7 @@ NoConn ~ 10100 4350
 NoConn ~ 10100 4450
 NoConn ~ 10100 4550
 NoConn ~ 10100 4950
-Text Label 10150 3650 0    50   ~ 0
+Text Label 10150 3350 0    50   ~ 0
 RGB_LIGHT
 Wire Wire Line
 	10050 3650 10150 3650
