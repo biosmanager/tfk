@@ -1020,11 +1020,11 @@ Text Label 10150 5550 0    50   ~ 0
 ROW_1
 Text Label 10150 5450 0    50   ~ 0
 ROW_2
-Text Label 10150 5250 0    50   ~ 0
+Text Label 10150 5150 0    50   ~ 0
 ROW_4
 Wire Wire Line
 	10050 5650 10150 5650
-Text Label 10150 5150 0    50   ~ 0
+Text Label 10150 5250 0    50   ~ 0
 ROW_5
 Text Label 10150 5350 0    50   ~ 0
 ROW_3
