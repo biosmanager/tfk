@@ -1,4 +1,4 @@
-update=15-Jun-21 12:03:26
+update=15-Jun-21 18:12:02
 version=1
 last_client=kicad
 [general]
@@ -73,7 +73,7 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=POWER
+Name=PWR
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
