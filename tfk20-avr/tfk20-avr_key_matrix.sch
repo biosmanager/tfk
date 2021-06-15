@@ -744,7 +744,7 @@ U 1 1 60D0AF9C
 P 5350 5550
 F 0 "H7" H 5300 5700 50  0000 L CNN
 F 1 "Stabilizer" H 5200 5400 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u" H 5350 5550 50  0001 C CNN
+F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u_CrtYd" H 5350 5550 50  0001 C CNN
 F 3 "~" H 5350 5550 50  0001 C CNN
 	1    5350 5550
 	1    0    0    -1  
@@ -755,7 +755,7 @@ U 1 1 60D0BD1B
 P 6850 4800
 F 0 "H6" H 6800 4950 50  0000 L CNN
 F 1 "Stabilizer" H 6700 4650 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u" H 6850 4800 50  0001 C CNN
+F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u_CrtYd" H 6850 4800 50  0001 C CNN
 F 3 "~" H 6850 4800 50  0001 C CNN
 	1    6850 4800
 	1    0    0    -1  
@@ -766,7 +766,7 @@ U 1 1 60D0E1C0
 P 6850 3300
 F 0 "H5" H 6800 3450 50  0000 L CNN
 F 1 "Stabilizer" H 6700 3150 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u" H 6850 3300 50  0001 C CNN
+F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u_CrtYd" H 6850 3300 50  0001 C CNN
 F 3 "~" H 6850 3300 50  0001 C CNN
 	1    6850 3300
 	1    0    0    -1  
