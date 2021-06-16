@@ -435,11 +435,11 @@ Text Label 10750 2150 0    50   ~ 0
 CS3
 Text Label 10750 2250 0    50   ~ 0
 CS4
-Text Label 10750 3650 0    50   ~ 0
+Text Label 10750 4250 0    50   ~ 0
 SW1
-Text Label 10750 3750 0    50   ~ 0
+Text Label 10750 4350 0    50   ~ 0
 SW2
-Text Label 10750 3850 0    50   ~ 0
+Text Label 10750 4450 0    50   ~ 0
 SW3
 Text Label 10750 3950 0    50   ~ 0
 SW4
@@ -447,11 +447,11 @@ Text Label 10750 4050 0    50   ~ 0
 SW5
 Text Label 10750 4150 0    50   ~ 0
 SW6
-Text Label 10750 4250 0    50   ~ 0
+Text Label 10750 3650 0    50   ~ 0
 SW7
-Text Label 10750 4350 0    50   ~ 0
+Text Label 10750 3750 0    50   ~ 0
 SW8
-Text Label 10750 4450 0    50   ~ 0
+Text Label 10750 3850 0    50   ~ 0
 SW9
 Wire Notes Line
 	9150 5550 11050 5550
