@@ -435,11 +435,11 @@ Text Label 10750 2150 0    50   ~ 0
 CS3
 Text Label 10750 2250 0    50   ~ 0
 CS4
-Text Label 10750 4250 0    50   ~ 0
+Text Label 10750 3650 0    50   ~ 0
 SW1
-Text Label 10750 4350 0    50   ~ 0
+Text Label 10750 3750 0    50   ~ 0
 SW2
-Text Label 10750 4450 0    50   ~ 0
+Text Label 10750 3850 0    50   ~ 0
 SW3
 Text Label 10750 3950 0    50   ~ 0
 SW4
@@ -447,11 +447,11 @@ Text Label 10750 4050 0    50   ~ 0
 SW5
 Text Label 10750 4150 0    50   ~ 0
 SW6
-Text Label 10750 3650 0    50   ~ 0
+Text Label 10750 4250 0    50   ~ 0
 SW7
-Text Label 10750 3750 0    50   ~ 0
+Text Label 10750 4350 0    50   ~ 0
 SW8
-Text Label 10750 3850 0    50   ~ 0
+Text Label 10750 4450 0    50   ~ 0
 SW9
 Wire Notes Line
 	9150 5550 11050 5550
@@ -599,8 +599,6 @@ $EndComp
 Wire Wire Line
 	2000 1100 2050 1100
 Wire Wire Line
-	850  1500 950  1500
-Wire Wire Line
 	1600 1300 1550 1300
 Wire Wire Line
 	1550 1300 1550 1500
@@ -609,10 +607,6 @@ Wire Wire Line
 	1550 1500 2450 1500
 Wire Wire Line
 	1600 1100 1450 1100
-Wire Wire Line
-	850  1700 1150 1700
-Wire Wire Line
-	850  1600 1050 1600
 Wire Wire Line
 	1450 1100 1450 1700
 Connection ~ 1450 1700
@@ -1161,12 +1155,6 @@ Text Label 3950 650  0    50   ~ 0
 CS3
 Text Label 4850 650  0    50   ~ 0
 CS4
-Text Label 850  1500 2    50   ~ 0
-SW1
-Text Label 850  1600 2    50   ~ 0
-SW2
-Text Label 850  1700 2    50   ~ 0
-SW3
 Text Label 850  3900 2    50   ~ 0
 SW4
 Text Label 850  4000 2    50   ~ 0
@@ -1263,21 +1251,18 @@ Wire Notes Line
 	5200 7750 5200 500 
 Wire Wire Line
 	950  1500 950  2700
-Connection ~ 950  1500
 Wire Wire Line
 	950  1500 1550 1500
 Wire Wire Line
 	950  2700 1550 2700
 Wire Wire Line
 	1050 1600 1050 2800
-Connection ~ 1050 1600
 Wire Wire Line
 	1050 1600 1350 1600
 Wire Wire Line
 	1050 2800 1350 2800
 Wire Wire Line
 	1150 1700 1150 2900
-Connection ~ 1150 1700
 Wire Wire Line
 	1150 1700 1450 1700
 Wire Wire Line
@@ -1330,11 +1315,11 @@ Connection ~ 1450 7700
 Connection ~ 1150 6500
 Wire Wire Line
 	1150 6500 850  6500
-Text Label 850  6300 2    50   ~ 0
+Text Label 850  1500 2    50   ~ 0
 SW7
-Text Label 850  6400 2    50   ~ 0
+Text Label 850  1600 2    50   ~ 0
 SW8
-Text Label 850  6500 2    50   ~ 0
+Text Label 850  1700 2    50   ~ 0
 SW9
 NoConn ~ 10700 4550
 NoConn ~ 10700 4650
@@ -1453,4 +1438,19 @@ Wire Wire Line
 	1450 7700 3350 7700
 Wire Wire Line
 	1550 7500 3450 7500
+Connection ~ 1150 1700
+Connection ~ 1050 1600
+Connection ~ 950  1500
+Text Label 850  6500 2    50   ~ 0
+SW3
+Text Label 850  6400 2    50   ~ 0
+SW2
+Text Label 850  6300 2    50   ~ 0
+SW1
+Wire Wire Line
+	850  1600 1050 1600
+Wire Wire Line
+	850  1700 1150 1700
+Wire Wire Line
+	850  1500 950  1500
 $EndSCHEMATC
