@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "tfk20 AVR"
+Title "tfk21 AVR"
 Date "2021-02-02"
 Rev "0"
 Comp "biosmanager"
@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 3550 4150 550  1200
 U 601C3315
-F0 "tfk20 Key Matrix" 50
-F1 "tfk20-avr_key_matrix.sch" 50
+F0 "tfk21 Key Matrix" 50
+F1 "tfk21-avr_key_matrix.sch" 50
 F2 "COL_0" I L 3550 4250 50 
 F3 "COL_1" I L 3550 4350 50 
 F4 "COL_2" I L 3550 4450 50 
@@ -162,8 +162,8 @@ IN_USB_D+
 $Sheet
 S 5200 5050 600  200 
 U 602C340B
-F0 "tfk20 RGB Light" 50
-F1 "tfk20-avr_rgb_light.sch" 50
+F0 "tfk21 RGB Light" 50
+F1 "tfk21-avr_rgb_light.sch" 50
 F2 "RGB_LIGHT" I L 5200 5150 50 
 $EndSheet
 Wire Wire Line
@@ -177,8 +177,8 @@ Decoupling capacitors for MCU
 $Sheet
 S 5200 4150 600  300 
 U 601F4644
-F0 "tfk20 RGB Matrix" 50
-F1 "tfk20-avr_rgb_matrix.sch" 50
+F0 "tfk21 RGB Matrix" 50
+F1 "tfk21-avr_rgb_matrix.sch" 50
 F2 "SDA" B L 5200 4350 50 
 F3 "SCL" I L 5200 4250 50 
 $EndSheet

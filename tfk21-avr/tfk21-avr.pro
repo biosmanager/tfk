@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=tfk20-avr.net
+LastNetListRead=tfk21-avr.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0

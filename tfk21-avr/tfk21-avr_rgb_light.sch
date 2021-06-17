@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title "tfk20 AVR"
+Title "tfk21 AVR"
 Date "2021-02-02"
 Rev "0"
 Comp "biosmanager"
