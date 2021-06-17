@@ -29,7 +29,7 @@ U 1 1 602E83E0
 P 4650 2550
 F 0 "MX5" H 4683 2773 60  0000 C CNN
 F 1 "MX-NoLED" H 4683 2699 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4025 2525 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4025 2525 60  0001 C CNN
 F 3 "" H 4025 2525 60  0001 C CNN
 	1    4650 2550
 	1    0    0    -1  
@@ -40,7 +40,7 @@ U 1 1 602FA8C0
 P 4650 3300
 F 0 "MX9" H 4683 3523 60  0000 C CNN
 F 1 "MX-NoLED" H 4683 3449 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4025 3275 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4025 3275 60  0001 C CNN
 F 3 "" H 4025 3275 60  0001 C CNN
 	1    4650 3300
 	1    0    0    -1  
@@ -51,7 +51,7 @@ U 1 1 602FBB69
 P 5400 2550
 F 0 "MX6" H 5433 2773 60  0000 C CNN
 F 1 "MX-NoLED" H 5433 2699 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4775 2525 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4775 2525 60  0001 C CNN
 F 3 "" H 4775 2525 60  0001 C CNN
 	1    5400 2550
 	1    0    0    -1  
@@ -62,7 +62,7 @@ U 1 1 602FF342
 P 5400 3300
 F 0 "MX10" H 5433 3523 60  0000 C CNN
 F 1 "MX-NoLED" H 5433 3449 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4775 3275 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4775 3275 60  0001 C CNN
 F 3 "" H 4775 3275 60  0001 C CNN
 	1    5400 3300
 	1    0    0    -1  
@@ -73,7 +73,7 @@ U 1 1 60307FEB
 P 6150 2550
 F 0 "MX7" H 6183 2773 60  0000 C CNN
 F 1 "MX-NoLED" H 6183 2699 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5525 2525 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 5525 2525 60  0001 C CNN
 F 3 "" H 5525 2525 60  0001 C CNN
 	1    6150 2550
 	1    0    0    -1  
@@ -84,7 +84,7 @@ U 1 1 60307FF7
 P 6150 3300
 F 0 "MX11" H 6183 3523 60  0000 C CNN
 F 1 "MX-NoLED" H 6183 3449 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5525 3275 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 5525 3275 60  0001 C CNN
 F 3 "" H 5525 3275 60  0001 C CNN
 	1    6150 3300
 	1    0    0    -1  
@@ -95,7 +95,7 @@ U 1 1 60307FFD
 P 6900 2550
 F 0 "MX8" H 6933 2773 60  0000 C CNN
 F 1 "MX-NoLED" H 6933 2699 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6275 2525 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 6275 2525 60  0001 C CNN
 F 3 "" H 6275 2525 60  0001 C CNN
 	1    6900 2550
 	1    0    0    -1  
@@ -106,7 +106,7 @@ U 1 1 60314CCC
 P 4650 4050
 F 0 "MX12" H 4683 4273 60  0000 C CNN
 F 1 "MX-NoLED" H 4683 4199 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4025 4025 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4025 4025 60  0001 C CNN
 F 3 "" H 4025 4025 60  0001 C CNN
 	1    4650 4050
 	1    0    0    -1  
@@ -117,7 +117,7 @@ U 1 1 60314CD2
 P 5400 4050
 F 0 "MX13" H 5433 4273 60  0000 C CNN
 F 1 "MX-NoLED" H 5433 4199 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4775 4025 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4775 4025 60  0001 C CNN
 F 3 "" H 4775 4025 60  0001 C CNN
 	1    5400 4050
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 1 1 60314CE4
 P 6150 4050
 F 0 "MX14" H 6183 4273 60  0000 C CNN
 F 1 "MX-NoLED" H 6183 4199 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5525 4025 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 5525 4025 60  0001 C CNN
 F 3 "" H 5525 4025 60  0001 C CNN
 	1    6150 4050
 	1    0    0    -1  
@@ -139,7 +139,7 @@ U 1 1 60314CEA
 P 6900 4050
 F 0 "MX15" H 6933 4273 60  0000 C CNN
 F 1 "MX-NoLED" H 6933 4199 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u" H 6275 4025 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u_NoFrontSilk" H 6275 4025 60  0001 C CNN
 F 3 "" H 6275 4025 60  0001 C CNN
 	1    6900 4050
 	1    0    0    -1  
@@ -150,7 +150,7 @@ U 1 1 6031D478
 P 4650 4800
 F 0 "MX16" H 4683 5023 60  0000 C CNN
 F 1 "MX-NoLED" H 4683 4949 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4025 4775 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4025 4775 60  0001 C CNN
 F 3 "" H 4025 4775 60  0001 C CNN
 	1    4650 4800
 	1    0    0    -1  
@@ -161,7 +161,7 @@ U 1 1 6031D490
 P 6150 4800
 F 0 "MX18" H 6183 5023 60  0000 C CNN
 F 1 "MX-NoLED" H 6183 4949 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5525 4775 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 5525 4775 60  0001 C CNN
 F 3 "" H 5525 4775 60  0001 C CNN
 	1    6150 4800
 	1    0    0    -1  
@@ -172,7 +172,7 @@ U 1 1 60325255
 P 4650 5550
 F 0 "MX19" H 4683 5773 60  0000 C CNN
 F 1 "MX-NoLED" H 4683 5699 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u" H 4025 5525 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u_NoFrontSilk" H 4025 5525 60  0001 C CNN
 F 3 "" H 4025 5525 60  0001 C CNN
 	1    4650 5550
 	1    0    0    -1  
@@ -183,7 +183,7 @@ U 1 1 6032526D
 P 6150 5550
 F 0 "MX20" H 6183 5773 60  0000 C CNN
 F 1 "MX-NoLED" H 6183 5699 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5525 5525 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 5525 5525 60  0001 C CNN
 F 3 "" H 5525 5525 60  0001 C CNN
 	1    6150 5550
 	1    0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 60325273
 P 6900 5550
 F 0 "MX21" H 6933 5773 60  0000 C CNN
 F 1 "MX-NoLED" H 6933 5699 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u" H 6275 5525 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u_NoFrontSilk" H 6275 5525 60  0001 C CNN
 F 3 "" H 6275 5525 60  0001 C CNN
 	1    6900 5550
 	1    0    0    -1  
@@ -396,7 +396,7 @@ U 1 1 60A22939
 P 4650 1800
 F 0 "MX1" H 4683 2023 60  0000 C CNN
 F 1 "MX-NoLED" H 4683 1949 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4025 1775 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4025 1775 60  0001 C CNN
 F 3 "" H 4025 1775 60  0001 C CNN
 	1    4650 1800
 	1    0    0    -1  
@@ -407,7 +407,7 @@ U 1 1 60A2293F
 P 5400 1800
 F 0 "MX2" H 5433 2023 60  0000 C CNN
 F 1 "MX-NoLED" H 5433 1949 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4775 1775 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4775 1775 60  0001 C CNN
 F 3 "" H 4775 1775 60  0001 C CNN
 	1    5400 1800
 	1    0    0    -1  
@@ -418,7 +418,7 @@ U 1 1 60A22945
 P 6150 1800
 F 0 "MX3" H 6183 2023 60  0000 C CNN
 F 1 "MX-NoLED" H 6183 1949 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5525 1775 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 5525 1775 60  0001 C CNN
 F 3 "" H 5525 1775 60  0001 C CNN
 	1    6150 1800
 	1    0    0    -1  
@@ -429,7 +429,7 @@ U 1 1 60A2294B
 P 6900 1800
 F 0 "MX4" H 6933 2023 60  0000 C CNN
 F 1 "MX-NoLED" H 6933 1949 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6275 1775 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 6275 1775 60  0001 C CNN
 F 3 "" H 6275 1775 60  0001 C CNN
 	1    6900 1800
 	1    0    0    -1  
@@ -777,7 +777,7 @@ U 1 1 6031D47E
 P 5400 4800
 F 0 "MX17" H 5433 5023 60  0000 C CNN
 F 1 "MX-NoLED" H 5433 4949 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 4775 4775 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 4775 4775 60  0001 C CNN
 F 3 "" H 4775 4775 60  0001 C CNN
 	1    5400 4800
 	1    0    0    -1  
