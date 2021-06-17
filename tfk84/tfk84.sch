@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "tfk75"
+Title "tfk84"
 Date "2021-01-16"
 Rev "0"
 Comp "biosmanager"
@@ -978,8 +978,8 @@ RGB_MATRIX
 $Sheet
 S 4850 1050 550  2400
 U 60121801
-F0 "tfk75 Key Matrix" 50
-F1 "tfk75_key_matrix.sch" 50
+F0 "tfk84 Key Matrix" 50
+F1 "tfk84_key_matrix.sch" 50
 F2 "COL_0" I L 4850 1150 50 
 F3 "COL_1" I L 4850 1250 50 
 F4 "COL_2" I L 4850 1350 50 
@@ -1014,8 +1014,8 @@ Wire Wire Line
 $Sheet
 S 6850 1050 600  200 
 U 60AB8722
-F0 "tfk75 RGB Matrix" 50
-F1 "tfk_rgb_matrix.sch" 50
+F0 "tfk84 RGB Matrix" 50
+F1 "tfk84_rgb_matrix.sch" 50
 F2 "RGB_MATRIX" I L 6850 1150 50 
 $EndSheet
 $EndSCHEMATC

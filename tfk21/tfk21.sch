@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title "tfk20"
+Title "tfk21"
 Date "2021-02-02"
 Rev "0"
 Comp "biosmanager"
@@ -188,8 +188,8 @@ VDD
 $Sheet
 S 4900 4500 550  1200
 U 601C3315
-F0 "tfk20 Key Matrix" 50
-F1 "tfk20_key_matrix.sch" 50
+F0 "tfk21 Key Matrix" 50
+F1 "tfk21_key_matrix.sch" 50
 F2 "COL_0" I L 4900 4600 50 
 F3 "COL_1" I L 4900 4700 50 
 F4 "COL_2" I L 4900 4800 50 
@@ -338,8 +338,8 @@ Wire Wire Line
 $Sheet
 S 6550 5400 600  200 
 U 602C340B
-F0 "tfk20 RGB Light" 50
-F1 "tfk20_rgb_light.sch" 50
+F0 "tfk21 RGB Light" 50
+F1 "tfk21_rgb_light.sch" 50
 F2 "RGB_LIGHT" I L 6550 5500 50 
 $EndSheet
 Wire Wire Line
@@ -483,8 +483,8 @@ Wire Notes Line
 $Sheet
 S 6550 4500 600  300 
 U 601F4644
-F0 "tfk20 RGB Matrix" 50
-F1 "tfk20_rgb_matrix.sch" 50
+F0 "tfk21 RGB Matrix" 50
+F1 "tfk21_rgb_matrix.sch" 50
 F2 "SDA" I L 6550 4600 50 
 F3 "SCL" I L 6550 4700 50 
 $EndSheet
@@ -1171,7 +1171,7 @@ $Sheet
 S 5000 1100 1050 700 
 U 60815FFC
 F0 "Voltage regulator and USB protection" 50
-F1 "tfk20_regulator_usb_protection.sch" 50
+F1 "tfk21_regulator_usb_protection.sch" 50
 F2 "VBUS" I L 5000 1200 50 
 F3 "IN_USB_D+" I L 5000 1350 50 
 F4 "IN_USB_D-" I L 5000 1450 50 
