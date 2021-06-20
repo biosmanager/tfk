@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name STL11N3LLH6)(type KiCad)(uri ${KIPRJMOD}/../libraries/STL11N3LLH6/STL11N3LLH6.pretty)(options "")(descr ""))
+  (lib (name Switch_Keyboard_Kailh)(type KiCad)(uri ${KIPRJMOD}/../libraries/keyswitch-kicad-library/modules/Switch_Keyboard_Kailh.pretty)(options "")(descr ""))
+  (lib (name Mounting_Keyboard_Stabilizer)(type KiCad)(uri ${KIPRJMOD}/../libraries/keyswitch-kicad-library/modules/Mounting_Keyboard_Stabilizer.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/../libraries/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/../libraries/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
+  (lib (name biosmanager)(type KiCad)(uri ${KIPRJMOD}/../libraries/biosmanager.pretty)(options "")(descr ""))
+)
