@@ -39,24 +39,22 @@ Wire Wire Line
 Wire Wire Line
 	3550 4550 3450 4550
 Wire Wire Line
-	3550 5350 3450 5350
-Wire Wire Line
-	3550 5450 3450 5450
-Wire Wire Line
-	3450 5550 3550 5550
-Wire Wire Line
-	3550 5650 3450 5650
+	3550 5550 3450 5550
 Wire Wire Line
 	3450 5750 3550 5750
-Text Label 3450 5350 2    50   ~ 0
-ROW_0
-Text Label 3450 5450 2    50   ~ 0
-ROW_1
+Wire Wire Line
+	3550 5850 3450 5850
+Wire Wire Line
+	3450 5950 3550 5950
 Text Label 3450 5550 2    50   ~ 0
-ROW_2
+ROW_0
 Text Label 3450 5650 2    50   ~ 0
-ROW_3
+ROW_1
 Text Label 3450 5750 2    50   ~ 0
+ROW_2
+Text Label 3450 5850 2    50   ~ 0
+ROW_3
+Text Label 3450 5950 2    50   ~ 0
 ROW_4
 Text Label 3450 4250 2    50   ~ 0
 COL_0
@@ -255,8 +253,8 @@ Wire Notes Line
 Wire Notes Line
 	700  -250 700  -1250
 Wire Wire Line
-	3550 5850 3450 5850
-Text Label 3450 5850 2    50   ~ 0
+	3550 6050 3450 6050
+Text Label 3450 6050 2    50   ~ 0
 ROW_5
 Connection ~ 1150 2800
 Text Label 1050 2800 2    50   ~ 0
@@ -1255,22 +1253,18 @@ Wire Wire Line
 Wire Wire Line
 	10050 4150 10150 4150
 Text Label 10150 5650 0    50   ~ 0
-ROW_8
-Text Label 10150 5550 0    50   ~ 0
-ROW_7
-Text Label 10150 5450 0    50   ~ 0
 ROW_6
-Text Label 10150 5150 0    50   ~ 0
-ROW_3
 Text Label 10150 5350 0    50   ~ 0
+ROW_3
+Text Label 10150 5550 0    50   ~ 0
 ROW_5
-Text Label 10150 5250 0    50   ~ 0
+Text Label 10150 5450 0    50   ~ 0
 ROW_4
-Text Label 10150 4950 0    50   ~ 0
+Text Label 10150 5250 0    50   ~ 0
 ROW_2
-Text Label 10150 4650 0    50   ~ 0
+Text Label 10150 5150 0    50   ~ 0
 ROW_1
-Text Label 10150 4550 0    50   ~ 0
+Text Label 10150 4950 0    50   ~ 0
 ROW_0
 $Sheet
 S 3550 4150 550  2100
@@ -1281,34 +1275,22 @@ F2 "COL_0" I L 3550 4250 50
 F3 "COL_1" I L 3550 4350 50 
 F4 "COL_2" I L 3550 4450 50 
 F5 "COL_3" I L 3550 4550 50 
-F6 "ROW_0" O L 3550 5350 50 
-F7 "ROW_1" O L 3550 5450 50 
-F8 "ROW_2" O L 3550 5550 50 
-F9 "ROW_3" O L 3550 5650 50 
-F10 "ROW_4" O L 3550 5750 50 
-F11 "ROW_5" O L 3550 5850 50 
+F6 "ROW_0" O L 3550 5550 50 
+F7 "ROW_1" O L 3550 5650 50 
+F8 "ROW_2" O L 3550 5750 50 
+F9 "ROW_3" O L 3550 5850 50 
+F10 "ROW_4" O L 3550 5950 50 
+F11 "ROW_5" O L 3550 6050 50 
 F12 "COL_4" I L 3550 4650 50 
 F13 "COL_5" I L 3550 4750 50 
 F14 "COL_6" I L 3550 4850 50 
 F15 "COL_7" I L 3550 4950 50 
 F16 "COL_8" I L 3550 5050 50 
 F17 "COL_9" I L 3550 5150 50 
-F18 "ROW_6" O L 3550 5950 50 
-F19 "ROW_7" O L 3550 6050 50 
-F20 "ROW_8" O L 3550 6150 50 
+F18 "ROW_6" O L 3550 6150 50 
+F19 "COL_10" I L 3550 5250 50 
+F20 "COL_11" I L 3550 5350 50 
 $EndSheet
-Wire Wire Line
-	3550 5950 3450 5950
-Wire Wire Line
-	3450 6050 3550 6050
-Wire Wire Line
-	3550 6150 3450 6150
-Text Label 3450 5950 2    50   ~ 0
-ROW_6
-Text Label 3450 6050 2    50   ~ 0
-ROW_7
-Text Label 3450 6150 2    50   ~ 0
-ROW_8
 Text Label 3450 4650 2    50   ~ 0
 COL_4
 Text Label 3450 4750 2    50   ~ 0
@@ -1343,4 +1325,22 @@ Wire Notes Line
 	4850 6450 3050 6450
 Wire Notes Line
 	3050 3800 3050 6450
+Text Label 3450 6150 2    50   ~ 0
+ROW_6
+Wire Wire Line
+	3450 6150 3550 6150
+Wire Wire Line
+	3450 5650 3550 5650
+Wire Wire Line
+	3450 5250 3550 5250
+Wire Wire Line
+	3450 5350 3550 5350
+Text Label 3450 5250 2    50   ~ 0
+COL_10
+Text Label 3450 5350 2    50   ~ 0
+COL_11
+Text Label 10150 4550 0    50   ~ 0
+COL_10
+Text Label 10150 4650 0    50   ~ 0
+COL_11
 $EndSCHEMATC
