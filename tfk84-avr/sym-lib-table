@@ -2,4 +2,5 @@
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/../libraries/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name tfk)(type Legacy)(uri ${KIPRJMOD}/../libraries/tfk/tfk.lib)(options "")(descr ""))
   (lib (name STL11N3LLH6)(type Legacy)(uri ${KIPRJMOD}/../libraries/STL11N3LLH6/STL11N3LLH6.lib)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/../libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
 )
