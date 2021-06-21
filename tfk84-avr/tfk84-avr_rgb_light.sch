@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "tfk84 AVR"
-Date "2021-02-02"
+Date "2021-06-21"
 Rev "0"
 Comp "biosmanager"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Per-key RGB and RGB backlight"
+Comment3 "MX hot-swap, USB-C, AVR MCU"
+Comment4 "QMK compatible 75% keyboard"
 $EndDescr
 Text HLabel 1750 2750 0    50   Input ~ 0
 RGB_LIGHT

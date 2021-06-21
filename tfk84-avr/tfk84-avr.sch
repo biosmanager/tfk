@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "tfk84 AVR"
-Date "2021-02-02"
+Date "2021-06-21"
 Rev "0"
 Comp "biosmanager"
 Comment1 ""
