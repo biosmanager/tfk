@@ -793,8 +793,6 @@ Connection ~ 1000 1800
 Wire Wire Line
 	1000 1800 1200 1800
 Wire Wire Line
-	950  2850 950  2700
-Wire Wire Line
 	950  2850 1250 2850
 Wire Wire Line
 	950  1850 1250 1850
@@ -839,8 +837,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 2400 6950 2400
 Connection ~ 1800 1400
-Wire Wire Line
-	2650 1400 2650 1500
 Connection ~ 2650 1400
 Connection ~ 3500 1400
 Wire Wire Line
@@ -855,8 +851,6 @@ Connection ~ 6050 1400
 Wire Wire Line
 	6900 1400 6900 3400
 Connection ~ 6900 1400
-Wire Wire Line
-	1800 1400 1800 1500
 Wire Wire Line
 	1700 2400 1850 2400
 Wire Wire Line
@@ -1647,17 +1641,13 @@ S_CS14
 Wire Wire Line
 	6950 600  6950 2400
 Wire Wire Line
-	1800 1900 1800 2500
-Wire Wire Line
-	2650 1900 2650 2500
-Wire Wire Line
-	950  2500 950  1850
-Wire Wire Line
-	1800 2900 1800 3400
-Wire Wire Line
-	2650 2900 2650 3400
-Wire Wire Line
 	1800 700  1800 1400
 Wire Wire Line
 	2650 700  2650 1400
+Wire Wire Line
+	950  1850 950  2850
+Wire Wire Line
+	2650 1400 2650 3400
+Wire Wire Line
+	1800 1400 1800 3400
 $EndSCHEMATC

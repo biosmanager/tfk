@@ -264,88 +264,88 @@ Wire Wire Line
 $Comp
 L Device:D_Small D3
 U 1 1 60989164
-P 1350 6550
+P 1500 6300
 AR Path="/60989164" Ref="D3"  Part="1" 
 AR Path="/60815FFC/60989164" Ref="D?"  Part="1" 
-F 0 "D3" H 1350 6450 50  0000 C CNN
-F 1 "Case ESD" H 1350 6434 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 1350 6550 50  0001 C CNN
-F 3 "~" V 1350 6550 50  0001 C CNN
-	1    1350 6550
+F 0 "D3" H 1500 6200 50  0000 C CNN
+F 1 "Case ESD" H 1500 6184 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 1500 6300 50  0001 C CNN
+F 3 "~" V 1500 6300 50  0001 C CNN
+	1    1500 6300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1450 6550 1550 6550
+	1600 6300 1700 6300
 Wire Wire Line
-	1550 6550 1550 6650
+	1700 6300 1700 6400
 Wire Wire Line
-	1550 6550 1900 6550
+	1700 6300 2050 6300
 Wire Wire Line
-	1900 6550 1900 6650
-Connection ~ 1550 6550
+	2050 6300 2050 6400
+Connection ~ 1700 6300
 $Comp
 L Device:R_Small R8
 U 1 1 6098916F
-P 1550 6750
+P 1700 6500
 AR Path="/6098916F" Ref="R8"  Part="1" 
 AR Path="/60815FFC/6098916F" Ref="R?"  Part="1" 
-F 0 "R8" H 1609 6796 50  0000 L CNN
-F 1 "1M" H 1609 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1550 6750 50  0001 C CNN
-F 3 "~" H 1550 6750 50  0001 C CNN
-	1    1550 6750
+F 0 "R8" H 1759 6546 50  0000 L CNN
+F 1 "1M" H 1759 6455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1700 6500 50  0001 C CNN
+F 3 "~" H 1700 6500 50  0001 C CNN
+	1    1700 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C8
 U 1 1 60989175
-P 1900 6750
+P 2050 6500
 AR Path="/60989175" Ref="C8"  Part="1" 
 AR Path="/60815FFC/60989175" Ref="C?"  Part="1" 
-F 0 "C8" H 1992 6796 50  0000 L CNN
-F 1 "4.7n" H 1992 6705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1900 6750 50  0001 C CNN
-F 3 "~" H 1900 6750 50  0001 C CNN
-	1    1900 6750
+F 0 "C8" H 2142 6546 50  0000 L CNN
+F 1 "4.7n" H 2142 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2050 6500 50  0001 C CNN
+F 3 "~" H 2050 6500 50  0001 C CNN
+	1    2050 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 6850 1900 6950
+	2050 6600 2050 6700
 Wire Wire Line
-	1900 6950 1550 6950
+	2050 6700 1700 6700
 Wire Wire Line
-	1550 6950 1550 6850
-Text Notes 750  5950 0    50   ~ 0
+	1700 6700 1700 6600
+Text Notes 900  5900 0    50   ~ 0
 Mounting holes and ESD inrush protection
 Wire Notes Line
-	700  5800 2650 5800
+	700  5750 2800 5750
 Wire Notes Line
-	2650 5800 2650 7600
+	2800 5750 2800 7550
 Wire Notes Line
-	2650 7600 700  7600
+	2800 7550 700  7550
 Wire Notes Line
-	700  7600 700  5800
+	700  7550 700  5750
 Wire Wire Line
-	1250 6550 1050 6550
+	1400 6300 1200 6300
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 60989184
-P 950 6550
+P 1100 6300
 AR Path="/60989184" Ref="H2"  Part="1" 
 AR Path="/60815FFC/60989184" Ref="H?"  Part="1" 
-F 0 "H2" V 800 6600 50  0000 C CNN
-F 1 "Case" V 700 6600 50  0000 C CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 950 6550 50  0001 C CNN
-F 3 "~" H 950 6550 50  0001 C CNN
-	1    950  6550
+F 0 "H2" V 1100 6500 50  0000 C CNN
+F 1 "Case" V 1000 6500 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1100 6300 50  0001 C CNN
+F 3 "~" H 1100 6300 50  0001 C CNN
+	1    1100 6300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1900 6950 2250 6950
-Connection ~ 1900 6950
-Text Label 2250 6950 0    50   ~ 0
+	2050 6700 2400 6700
+Connection ~ 2050 6700
+Text Label 2400 6700 0    50   ~ 0
 SHIELD
-Text Notes 1600 7300 0    50   ~ 0
+Text Notes 1750 7050 0    50   ~ 0
 Shunt ESD away from \nGND and ICs to USB \nshield.
 Wire Wire Line
 	4000 1050 4000 1000
@@ -1023,34 +1023,34 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60BC9C45
-P 900 6150
-F 0 "H1" H 850 6000 50  0000 L CNN
-F 1 "MountingHole" H 800 5900 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 900 6150 50  0001 C CNN
-F 3 "~" H 900 6150 50  0001 C CNN
-	1    900  6150
+P 1050 6100
+F 0 "H1" H 850 6100 50  0000 L CNN
+F 1 "MountingHole" H 950 5850 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1050 6100 50  0001 C CNN
+F 3 "~" H 1050 6100 50  0001 C CNN
+	1    1050 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 60BCA1EE
-P 900 6950
-F 0 "H3" H 850 6800 50  0000 L CNN
-F 1 "MountingHole" H 1000 6905 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 900 6950 50  0001 C CNN
-F 3 "~" H 900 6950 50  0001 C CNN
-	1    900  6950
+P 1050 6500
+F 0 "H3" H 850 6500 50  0000 L CNN
+F 1 "MountingHole" H 1150 6455 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1050 6500 50  0001 C CNN
+F 3 "~" H 1050 6500 50  0001 C CNN
+	1    1050 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 60BCA526
-P 900 7350
-F 0 "H4" H 850 7200 50  0000 L CNN
-F 1 "MountingHole" H 1000 7305 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 900 7350 50  0001 C CNN
-F 3 "~" H 900 7350 50  0001 C CNN
-	1    900  7350
+P 1050 6700
+F 0 "H4" H 850 6700 50  0000 L CNN
+F 1 "MountingHole" H 1150 6655 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1050 6700 50  0001 C CNN
+F 3 "~" H 1050 6700 50  0001 C CNN
+	1    1050 6700
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1343,4 +1343,37 @@ Text Label 10150 4550 0    50   ~ 0
 COL_10
 Text Label 10150 4650 0    50   ~ 0
 COL_11
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 60FF3666
+P 1050 6900
+F 0 "H9" H 850 6900 50  0000 L CNN
+F 1 "MountingHole" H 1150 6855 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1050 6900 50  0001 C CNN
+F 3 "~" H 1050 6900 50  0001 C CNN
+	1    1050 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 60FF38B8
+P 1050 7100
+F 0 "H10" H 800 7100 50  0000 L CNN
+F 1 "MountingHole" H 1150 7055 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1050 7100 50  0001 C CNN
+F 3 "~" H 1050 7100 50  0001 C CNN
+	1    1050 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 60FF3AA3
+P 1050 7300
+F 0 "H11" H 800 7300 50  0000 L CNN
+F 1 "MountingHole" H 1150 7255 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1050 7300 50  0001 C CNN
+F 3 "~" H 1050 7300 50  0001 C CNN
+	1    1050 7300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
