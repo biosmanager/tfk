@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 4
 Title "tfk21 AVR"
 Date "2021-02-02"
-Rev "0"
+Rev "A"
 Comp "biosmanager"
 Comment1 ""
 Comment2 "Per-key RGB and RGB backlight"
