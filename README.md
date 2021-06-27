@@ -1,6 +1,7 @@
 # tfk - The F(ine|fancy|inal) Keyboard
 
 This is a work in progress collection of open-source high-end keyboard PCBs. 
+Designed to be hand-solderable.
 
 **Features**:
 
@@ -9,6 +10,7 @@ This is a work in progress collection of open-source high-end keyboard PCBs.
 -   Per-key RGB lighting and RGB backlight
 -   USB-C
 -   Overvoltage, overcurrent and ESD protection
+-   Hand-solderable footprints
 -   (All powered by STM32 microcontrollers)
 
 > **NOTE:**  Due to the current global chip crisis I decided to use AVR based microcontrollers in the first revisions which are easier to obtain.
