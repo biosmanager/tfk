@@ -264,88 +264,88 @@ Wire Wire Line
 $Comp
 L Device:D_Small D3
 U 1 1 60989164
-P 1500 6100
+P 1500 5950
 AR Path="/60989164" Ref="D3"  Part="1" 
 AR Path="/60815FFC/60989164" Ref="D?"  Part="1" 
-F 0 "D3" H 1500 6000 50  0000 C CNN
-F 1 "Case ESD" H 1500 5984 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 1500 6100 50  0001 C CNN
-F 3 "~" V 1500 6100 50  0001 C CNN
-	1    1500 6100
+F 0 "D3" H 1500 5850 50  0000 C CNN
+F 1 "Case ESD" H 1500 5834 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 1500 5950 50  0001 C CNN
+F 3 "~" V 1500 5950 50  0001 C CNN
+	1    1500 5950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1600 6100 1700 6100
+	1600 5950 1700 5950
 Wire Wire Line
-	1700 6100 1700 6200
+	1700 5950 1700 6050
 Wire Wire Line
-	1700 6100 2050 6100
+	1700 5950 2050 5950
 Wire Wire Line
-	2050 6100 2050 6200
-Connection ~ 1700 6100
+	2050 5950 2050 6050
+Connection ~ 1700 5950
 $Comp
 L Device:R_Small R8
 U 1 1 6098916F
-P 1700 6300
+P 1700 6150
 AR Path="/6098916F" Ref="R8"  Part="1" 
 AR Path="/60815FFC/6098916F" Ref="R?"  Part="1" 
-F 0 "R8" H 1759 6346 50  0000 L CNN
-F 1 "1M" H 1759 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1700 6300 50  0001 C CNN
-F 3 "~" H 1700 6300 50  0001 C CNN
-	1    1700 6300
+F 0 "R8" H 1759 6196 50  0000 L CNN
+F 1 "1M" H 1759 6105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1700 6150 50  0001 C CNN
+F 3 "~" H 1700 6150 50  0001 C CNN
+	1    1700 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C8
 U 1 1 60989175
-P 2050 6300
+P 2050 6150
 AR Path="/60989175" Ref="C8"  Part="1" 
 AR Path="/60815FFC/60989175" Ref="C?"  Part="1" 
-F 0 "C8" H 2142 6346 50  0000 L CNN
-F 1 "4.7n" H 2142 6255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2050 6300 50  0001 C CNN
-F 3 "~" H 2050 6300 50  0001 C CNN
-	1    2050 6300
+F 0 "C8" H 2142 6196 50  0000 L CNN
+F 1 "4.7n" H 2142 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2050 6150 50  0001 C CNN
+F 3 "~" H 2050 6150 50  0001 C CNN
+	1    2050 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 6400 2050 6500
+	2050 6250 2050 6350
 Wire Wire Line
-	2050 6500 1700 6500
+	2050 6350 1700 6350
 Wire Wire Line
-	1700 6500 1700 6400
-Text Notes 900  5900 0    50   ~ 0
+	1700 6350 1700 6250
+Text Notes 900  5750 0    50   ~ 0
 Mounting holes and ESD inrush protection
 Wire Notes Line
-	700  5750 2800 5750
+	700  5600 2800 5600
 Wire Notes Line
-	2800 5750 2800 7550
+	2800 5600 2800 7400
 Wire Notes Line
-	2800 7550 700  7550
+	2800 7700 700  7700
 Wire Notes Line
-	700  7550 700  5750
+	700  7400 700  5600
 Wire Wire Line
-	1400 6100 1300 6100
+	1400 5950 1300 5950
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 60989184
-P 1100 6100
+P 1100 5950
 AR Path="/60989184" Ref="H1"  Part="1" 
 AR Path="/60815FFC/60989184" Ref="H?"  Part="1" 
-F 0 "H1" V 1100 6300 50  0000 C CNN
-F 1 "Case" V 1000 6300 50  0001 C CNN
-F 2 "random-keyboard-parts:MountingHole_2.5mm_Pad_TopOnly_NoCrtYd" H 1100 6100 50  0001 C CNN
-F 3 "~" H 1100 6100 50  0001 C CNN
-	1    1100 6100
+F 0 "H1" V 1100 6150 50  0000 C CNN
+F 1 "Case" V 1000 6150 50  0001 C CNN
+F 2 "random-keyboard-parts:MountingHole_2.5mm_Pad_TopOnly_NoCrtYd" H 1100 5950 50  0001 C CNN
+F 3 "~" H 1100 5950 50  0001 C CNN
+	1    1100 5950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2050 6500 2400 6500
-Connection ~ 2050 6500
-Text Label 2400 6500 0    50   ~ 0
+	2050 6350 2400 6350
+Connection ~ 2050 6350
+Text Label 2400 6350 0    50   ~ 0
 SHIELD
-Text Notes 1750 6850 0    50   ~ 0
+Text Notes 1750 6700 0    50   ~ 0
 Shunt ESD away from \nGND and ICs to USB \nshield.
 Wire Wire Line
 	4000 1050 4000 1000
@@ -1023,34 +1023,34 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 60BC9C45
-P 1100 6300
-F 0 "H2" V 1100 6450 50  0000 L CNN
-F 1 "Case" V 1000 6400 50  0001 L CNN
-F 2 "random-keyboard-parts:MountingHole_2.5mm_Pad_TopOnly_NoCrtYd" H 1100 6300 50  0001 C CNN
-F 3 "~" H 1100 6300 50  0001 C CNN
-	1    1100 6300
+P 1100 6150
+F 0 "H2" V 1100 6300 50  0000 L CNN
+F 1 "Case" V 1000 6250 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_2.5mm_Pad_TopOnly_NoCrtYd" H 1100 6150 50  0001 C CNN
+F 3 "~" H 1100 6150 50  0001 C CNN
+	1    1100 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 60BCA1EE
-P 1050 6500
-F 0 "H3" H 850 6500 50  0000 L CNN
-F 1 "MountingHole" H 1150 6455 50  0001 L CNN
-F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 6500 50  0001 C CNN
-F 3 "~" H 1050 6500 50  0001 C CNN
-	1    1050 6500
+P 1050 6350
+F 0 "H3" H 850 6350 50  0000 L CNN
+F 1 "MountingHole" H 1150 6305 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 6350 50  0001 C CNN
+F 3 "~" H 1050 6350 50  0001 C CNN
+	1    1050 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 60BCA526
-P 1050 6700
-F 0 "H4" H 850 6700 50  0000 L CNN
-F 1 "MountingHole" H 1150 6655 50  0001 L CNN
-F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 6700 50  0001 C CNN
-F 3 "~" H 1050 6700 50  0001 C CNN
-	1    1050 6700
+P 1050 6550
+F 0 "H4" H 850 6550 50  0000 L CNN
+F 1 "MountingHole" H 1150 6505 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 6550 50  0001 C CNN
+F 3 "~" H 1050 6550 50  0001 C CNN
+	1    1050 6550
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1344,43 +1344,143 @@ COL_10
 Text Label 10150 4650 0    50   ~ 0
 COL_11
 $Comp
-L Mechanical:MountingHole H9
+L Mechanical:MountingHole H5
 U 1 1 60FF3666
-P 1050 6900
-F 0 "H9" H 850 6900 50  0000 L CNN
-F 1 "MountingHole" H 1150 6855 50  0001 L CNN
-F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 6900 50  0001 C CNN
-F 3 "~" H 1050 6900 50  0001 C CNN
-	1    1050 6900
+P 1050 6750
+F 0 "H5" H 850 6750 50  0000 L CNN
+F 1 "MountingHole" H 1150 6705 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 6750 50  0001 C CNN
+F 3 "~" H 1050 6750 50  0001 C CNN
+	1    1050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60FF38B8
+P 1050 6950
+F 0 "H6" H 800 6950 50  0000 L CNN
+F 1 "MountingHole" H 1150 6905 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 6950 50  0001 C CNN
+F 3 "~" H 1050 6950 50  0001 C CNN
+	1    1050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 60FF3AA3
+P 1050 7150
+F 0 "H9" H 800 7150 50  0000 L CNN
+F 1 "MountingHole" H 1150 7105 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 7150 50  0001 C CNN
+F 3 "~" H 1050 7150 50  0001 C CNN
+	1    1050 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6150 1300 6150
+Wire Wire Line
+	1300 6150 1300 5950
+Connection ~ 1300 5950
+Wire Wire Line
+	1300 5950 1200 5950
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60DA8EA3
+P 1650 6950
+F 0 "H7" H 1400 6950 50  0000 L CNN
+F 1 "MountingHole" H 1750 6905 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1650 6950 50  0001 C CNN
+F 3 "~" H 1650 6950 50  0001 C CNN
+	1    1650 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H10
-U 1 1 60FF38B8
-P 1050 7100
-F 0 "H10" H 800 7100 50  0000 L CNN
-F 1 "MountingHole" H 1150 7055 50  0001 L CNN
-F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 7100 50  0001 C CNN
-F 3 "~" H 1050 7100 50  0001 C CNN
-	1    1050 7100
+U 1 1 60DA8EA9
+P 1650 7150
+F 0 "H10" H 1400 7150 50  0000 L CNN
+F 1 "MountingHole" H 1750 7105 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1650 7150 50  0001 C CNN
+F 3 "~" H 1650 7150 50  0001 C CNN
+	1    1650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60DB2E68
+P 2250 6950
+F 0 "H8" H 2000 6950 50  0000 L CNN
+F 1 "MountingHole" H 2350 6905 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 2250 6950 50  0001 C CNN
+F 3 "~" H 2250 6950 50  0001 C CNN
+	1    2250 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H11
-U 1 1 60FF3AA3
-P 1050 7300
-F 0 "H11" H 800 7300 50  0000 L CNN
-F 1 "MountingHole" H 1150 7255 50  0001 L CNN
-F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 7300 50  0001 C CNN
-F 3 "~" H 1050 7300 50  0001 C CNN
-	1    1050 7300
+U 1 1 60DB2E6E
+P 2250 7150
+F 0 "H11" H 2000 7150 50  0000 L CNN
+F 1 "MountingHole" H 2350 7105 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 2250 7150 50  0001 C CNN
+F 3 "~" H 2250 7150 50  0001 C CNN
+	1    2250 7150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 6300 1300 6300
-Wire Wire Line
-	1300 6300 1300 6100
-Connection ~ 1300 6100
-Wire Wire Line
-	1300 6100 1200 6100
+NoConn ~ 2350 6500
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 60DE470F
+P 1050 7350
+F 0 "H12" H 800 7350 50  0000 L CNN
+F 1 "MountingHole" H 1150 7305 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 7350 50  0001 C CNN
+F 3 "~" H 1050 7350 50  0001 C CNN
+	1    1050 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 60DE4715
+P 1650 7350
+F 0 "H13" H 1400 7350 50  0000 L CNN
+F 1 "MountingHole" H 1750 7305 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1650 7350 50  0001 C CNN
+F 3 "~" H 1650 7350 50  0001 C CNN
+	1    1650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 60DE471B
+P 2250 7350
+F 0 "H14" H 2000 7350 50  0000 L CNN
+F 1 "MountingHole" H 2350 7305 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 2250 7350 50  0001 C CNN
+F 3 "~" H 2250 7350 50  0001 C CNN
+	1    2250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 60DF8AB9
+P 1050 7550
+F 0 "H15" H 800 7550 50  0000 L CNN
+F 1 "MountingHole" H 1150 7505 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1050 7550 50  0001 C CNN
+F 3 "~" H 1050 7550 50  0001 C CNN
+	1    1050 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H16
+U 1 1 60DF8ABF
+P 1650 7550
+F 0 "H16" H 1400 7550 50  0000 L CNN
+F 1 "MountingHole" H 1750 7505 50  0001 L CNN
+F 2 "random-keyboard-parts:MountingHole_4.5x2.5mm_Pad_TopOnly_NPTH" H 1650 7550 50  0001 C CNN
+F 3 "~" H 1650 7550 50  0001 C CNN
+	1    1650 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -2391,8 +2391,8 @@ L Mechanical:MountingHole H?
 U 1 1 610B766F
 P 3400 3550
 AR Path="/610B766F" Ref="H?"  Part="1" 
-AR Path="/601C3315/610B766F" Ref="H7"  Part="1" 
-F 0 "H7" H 3300 3504 50  0000 R CNN
+AR Path="/601C3315/610B766F" Ref="H20"  Part="1" 
+F 0 "H20" H 3300 3504 50  0000 R CNN
 F 1 "LShift stabilizer" H 3300 3595 50  0000 R CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u_CrtYd" H 3400 3550 50  0001 C CNN
 F 3 "~" H 3400 3550 50  0001 C CNN
@@ -2404,8 +2404,8 @@ L Mechanical:MountingHole H?
 U 1 1 610B7675
 P 8400 2950
 AR Path="/610B7675" Ref="H?"  Part="1" 
-AR Path="/601C3315/610B7675" Ref="H6"  Part="1" 
-F 0 "H6" H 8500 2996 50  0000 L CNN
+AR Path="/601C3315/610B7675" Ref="H19"  Part="1" 
+F 0 "H19" H 8500 2996 50  0000 L CNN
 F 1 "Enter stabilizer" H 8500 2905 50  0000 L CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u_CrtYd" H 8400 2950 50  0001 C CNN
 F 3 "~" H 8400 2950 50  0001 C CNN
@@ -2417,8 +2417,8 @@ L Mechanical:MountingHole H?
 U 1 1 610B767B
 P 8400 2350
 AR Path="/610B767B" Ref="H?"  Part="1" 
-AR Path="/601C3315/610B767B" Ref="H5"  Part="1" 
-F 0 "H5" H 8500 2396 50  0000 L CNN
+AR Path="/601C3315/610B767B" Ref="H18"  Part="1" 
+F 0 "H18" H 8500 2396 50  0000 L CNN
 F 1 "Backspace stabilizer" H 8500 2305 50  0000 L CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u_CrtYd" H 8400 2350 50  0001 C CNN
 F 3 "~" H 8400 2350 50  0001 C CNN
@@ -2430,8 +2430,8 @@ L Mechanical:MountingHole H?
 U 1 1 610B7681
 P 5550 6000
 AR Path="/610B7681" Ref="H?"  Part="1" 
-AR Path="/601C3315/610B7681" Ref="H8"  Part="1" 
-F 0 "H8" H 5650 6046 50  0000 L CNN
+AR Path="/601C3315/610B7681" Ref="H21"  Part="1" 
+F 0 "H21" H 5650 6046 50  0000 L CNN
 F 1 "Space stabilizer" H 5650 5955 50  0000 L CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_6.25u" H 5550 6000 50  0001 C CNN
 F 3 "~" H 5550 6000 50  0001 C CNN
