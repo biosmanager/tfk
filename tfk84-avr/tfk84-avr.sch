@@ -319,12 +319,6 @@ Text Notes 900  5750 0    50   ~ 0
 Mounting holes and ESD inrush protection
 Wire Notes Line
 	700  5600 2800 5600
-Wire Notes Line
-	2800 5600 2800 7400
-Wire Notes Line
-	2800 7700 700  7700
-Wire Notes Line
-	700  7400 700  5600
 Wire Wire Line
 	1400 5950 1300 5950
 $Comp
@@ -335,7 +329,7 @@ AR Path="/60989184" Ref="H1"  Part="1"
 AR Path="/60815FFC/60989184" Ref="H?"  Part="1" 
 F 0 "H1" V 1100 6150 50  0000 C CNN
 F 1 "Case" V 1000 6150 50  0001 C CNN
-F 2 "random-keyboard-parts:MountingHole_2.5mm_Pad_TopOnly_NoCrtYd" H 1100 5950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1100 5950 50  0001 C CNN
 F 3 "~" H 1100 5950 50  0001 C CNN
 	1    1100 5950
 	0    -1   -1   0   
@@ -1026,7 +1020,7 @@ U 1 1 60BC9C45
 P 1100 6150
 F 0 "H2" V 1100 6300 50  0000 L CNN
 F 1 "Case" V 1000 6250 50  0001 L CNN
-F 2 "random-keyboard-parts:MountingHole_2.5mm_Pad_TopOnly_NoCrtYd" H 1100 6150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1100 6150 50  0001 C CNN
 F 3 "~" H 1100 6150 50  0001 C CNN
 	1    1100 6150
 	0    -1   -1   0   
@@ -1427,7 +1421,6 @@ F 3 "~" H 2250 7150 50  0001 C CNN
 	1    2250 7150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2350 6500
 $Comp
 L Mechanical:MountingHole H12
 U 1 1 60DE470F
@@ -1483,4 +1476,10 @@ F 3 "~" H 1650 7550 50  0001 C CNN
 	1    1650 7550
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	700  5600 700  7700
+Wire Notes Line
+	2800 5600 2800 7700
+Wire Notes Line
+	700  7700 2800 7700
 $EndSCHEMATC

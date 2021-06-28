@@ -204,7 +204,7 @@ U 1 1 60EE8AC9
 P 4500 2400
 F 0 "MX14" H 4533 2581 60  0000 C CNN
 F 1 "MX-NoLED" H 4533 2549 20  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u_NoFrontSilk" H 3875 2375 60  0001 C CNN
+F 2 "random-keyboard-parts:SW_Hotswap_Kailh_1.00u_NoFrontSilk_CornerPad_TightCrtYd" H 3875 2375 60  0001 C CNN
 F 3 "" H 3875 2375 60  0001 C CNN
 	1    4500 2400
 	1    0    0    -1  
